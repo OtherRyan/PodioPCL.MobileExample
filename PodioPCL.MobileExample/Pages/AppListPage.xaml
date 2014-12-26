@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="PodioPCL.MobileExample.Pages.AppListPage"
+             Title="Applications">
+  <ListView ItemsSource="{Binding Models}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}" x:Name="ListView">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <ViewCell.View>
+            <StackLayout Orientation="Horizontal">
+              <StackLayout>
+                <Label Text="{Binding AppId}" />
+                <Label Text="{Binding AppId}" />
+              </StackLayout>
+            </StackLayout>
+          </ViewCell.View>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>
