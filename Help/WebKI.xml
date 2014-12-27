@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="App class">
+    <HelpKINode Title="App Class" Url="html/1646476726.htm" />
+    <HelpKINode Title="App Members" Url="html/125408077.htm" />
+    <HelpKINode Title="about App class" Url="html/1646476726.htm" />
+    <HelpKINode Title="all members" Url="html/125408077.htm" />
+    <HelpKINode Title="constructor" Url="html/951995599.htm" />
+    <HelpKINode Title="events" Url="html/1233061319.htm" />
+    <HelpKINode Title="methods" Url="html/1517972235.htm" />
+    <HelpKINode Title="properties" Url="html/1395084330.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.App constructor" Url="html/951995599.htm" />
+  <HelpKINode Title="AppDetailPage class">
+    <HelpKINode Title="AppDetailPage Class" Url="html/1076812554.htm" />
+    <HelpKINode Title="AppDetailPage Members" Url="html/1228325473.htm" />
+    <HelpKINode Title="about AppDetailPage class" Url="html/1076812554.htm" />
+    <HelpKINode Title="all members" Url="html/1228325473.htm" />
+    <HelpKINode Title="constructor" Url="html/947698023.htm" />
+    <HelpKINode Title="constructor" Url="html/187689108.htm" />
+    <HelpKINode Title="methods" Url="html/608153191.htm" />
+    <HelpKINode Title="properties" Url="html/1416441927.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppDetailPage.AppDetailPage constructor">
+    <HelpKINode Title="AppDetailPage Constructor " Url="html/947698023.htm" />
+    <HelpKINode Title="AppDetailPage Constructor " Url="html/187689108.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppDetailPage.ViewModel property" Url="html/1396318655.htm" />
+  <HelpKINode Title="AppDetailViewModel class">
+    <HelpKINode Title="AppDetailViewModel Class" Url="html/696674737.htm" />
+    <HelpKINode Title="AppDetailViewModel Members" Url="html/1789942458.htm" />
+    <HelpKINode Title="about AppDetailViewModel class" Url="html/696674737.htm" />
+    <HelpKINode Title="all members" Url="html/1789942458.htm" />
+    <HelpKINode Title="constructor" Url="html/961801712.htm" />
+    <HelpKINode Title="events" Url="html/236979387.htm" />
+    <HelpKINode Title="fields" Url="html/144051537.htm" />
+    <HelpKINode Title="methods" Url="html/1626098023.htm" />
+    <HelpKINode Title="properties" Url="html/1446226655.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppDetailViewModel.AppDetailViewModel constructor" Url="html/961801712.htm" />
+  <HelpKINode Title="AppDetailViewModel.Model property" Url="html/2062992557.htm" />
+  <HelpKINode Title="AppDetailViewModel.ModelProperty field" Url="html/625458460.htm" />
+  <HelpKINode Title="AppDetailViewModel.ViewItemsCommand property" Url="html/592430049.htm" />
+  <HelpKINode Title="AppDetailViewModel.ViewItemsCommandProperty field" Url="html/824198061.htm" />
+  <HelpKINode Title="AppId property" Url="html/812743915.htm" />
+  <HelpKINode Title="AppListPage class">
+    <HelpKINode Title="AppListPage Class" Url="html/1366830490.htm" />
+    <HelpKINode Title="AppListPage Members" Url="html/2099219679.htm" />
+    <HelpKINode Title="about AppListPage class" Url="html/1366830490.htm" />
+    <HelpKINode Title="all members" Url="html/2099219679.htm" />
+    <HelpKINode Title="constructor" Url="html/841505745.htm" />
+    <HelpKINode Title="constructor" Url="html/1329814936.htm" />
+    <HelpKINode Title="methods" Url="html/2097659010.htm" />
+    <HelpKINode Title="properties" Url="html/1400527916.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppListPage.AppListPage constructor">
+    <HelpKINode Title="AppListPage Constructor " Url="html/1329814936.htm" />
+    <HelpKINode Title="AppListPage Constructor " Url="html/841505745.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppListPage.ViewModel property" Url="html/1439367049.htm" />
+  <HelpKINode Title="AppListViewModel class">
+    <HelpKINode Title="AppListViewModel Class" Url="html/368477206.htm" />
+    <HelpKINode Title="AppListViewModel Members" Url="html/115986752.htm" />
+    <HelpKINode Title="about AppListViewModel class" Url="html/368477206.htm" />
+    <HelpKINode Title="all members" Url="html/115986752.htm" />
+    <HelpKINode Title="constructor" Url="html/878815139.htm" />
+    <HelpKINode Title="events" Url="html/758703015.htm" />
+    <HelpKINode Title="methods" Url="html/1749138902.htm" />
+    <HelpKINode Title="properties" Url="html/1792558819.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppListViewModel.AppListViewModel constructor" Url="html/878815139.htm" />
+  <HelpKINode Title="AppListViewModel.GetModels method" Url="html/143400634.htm" />
+  <HelpKINode Title="AppListViewModel.OnPropertyChanged method" Url="html/1605482878.htm" />
+  <HelpKINode Title="AppListViewModel.SpaceId property" Url="html/2145712721.htm" />
+  <HelpKINode Title="BasePage property" Url="html/1046656613.htm" />
+  <HelpKINode Title="ClientId field" Url="html/816173375.htm" />
+  <HelpKINode Title="ClientSecret field" Url="html/588910222.htm" />
+  <HelpKINode Title="DisplayAlert method" Url="html/813747848.htm" />
+  <HelpKINode Title="Get method" Url="html/2116238254.htm" />
+  <HelpKINode Title="GetModels method">
+    <HelpKINode Title="GetModels Method " Url="html/613070469.htm" />
+    <HelpKINode Title="GetModels Method " Url="html/1326922357.htm" />
+    <HelpKINode Title="GetModels Method " Url="html/143400634.htm" />
+    <HelpKINode Title="GetModels Method " Url="html/1206017543.htm" />
+    <HelpKINode Title="GetModels Method " Url="html/953316084.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSetting(Of TSetting) method" Url="html/1171470639.htm" />
+  <HelpKINode Title="GetSetting&lt;TSetting&gt; method" Url="html/1171470639.htm" />
+  <HelpKINode Title="ILog interface">
+    <HelpKINode Title="ILog Interface" Url="html/427308390.htm" />
+    <HelpKINode Title="ILog Members" Url="html/1057554183.htm" />
+    <HelpKINode Title="about ILog interface" Url="html/427308390.htm" />
+    <HelpKINode Title="all members" Url="html/1057554183.htm" />
+    <HelpKINode Title="methods" Url="html/280360683.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILog.WriteLine method" Url="html/1044735387.htm" />
+  <HelpKINode Title="ISettings interface">
+    <HelpKINode Title="ISettings Interface" Url="html/1443446551.htm" />
+    <HelpKINode Title="ISettings Members" Url="html/1844868511.htm" />
+    <HelpKINode Title="about ISettings interface" Url="html/1443446551.htm" />
+    <HelpKINode Title="all members" Url="html/1844868511.htm" />
+    <HelpKINode Title="methods" Url="html/967602120.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISettings.GetSetting(Of TSetting) method" Url="html/1171470639.htm" />
+  <HelpKINode Title="ISettings.GetSetting&lt;TSetting&gt; method" Url="html/1171470639.htm" />
+  <HelpKINode Title="ISettings.SetSetting(Of TSetting) method" Url="html/1550049197.htm" />
+  <HelpKINode Title="ISettings.SetSetting&lt;TSetting&gt; method" Url="html/1550049197.htm" />
+  <HelpKINode Title="IsLoading property" Url="html/1559797792.htm" />
+  <HelpKINode Title="IsLoadingProperty field" Url="html/234299745.htm" />
+  <HelpKINode Title="ItemCollection property" Url="html/398035398.htm" />
+  <HelpKINode Title="ItemListPage class">
+    <HelpKINode Title="ItemListPage Class" Url="html/2127271712.htm" />
+    <HelpKINode Title="ItemListPage Members" Url="html/627786150.htm" />
+    <HelpKINode Title="about ItemListPage class" Url="html/2127271712.htm" />
+    <HelpKINode Title="all members" Url="html/627786150.htm" />
+    <HelpKINode Title="constructor" Url="html/1427945898.htm" />
+    <HelpKINode Title="constructor" Url="html/1893037576.htm" />
+    <HelpKINode Title="methods" Url="html/292015842.htm" />
+    <HelpKINode Title="properties" Url="html/1516840702.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemListPage.ItemListPage constructor">
+    <HelpKINode Title="ItemListPage Constructor " Url="html/1893037576.htm" />
+    <HelpKINode Title="ItemListPage Constructor " Url="html/1427945898.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemListPage.ViewModel property" Url="html/471475001.htm" />
+  <HelpKINode Title="ItemListViewModel class">
+    <HelpKINode Title="ItemListViewModel Class" Url="html/1410484694.htm" />
+    <HelpKINode Title="ItemListViewModel Members" Url="html/333391419.htm" />
+    <HelpKINode Title="about ItemListViewModel class" Url="html/1410484694.htm" />
+    <HelpKINode Title="all members" Url="html/333391419.htm" />
+    <HelpKINode Title="constructor" Url="html/1988578871.htm" />
+    <HelpKINode Title="events" Url="html/1230411089.htm" />
+    <HelpKINode Title="methods" Url="html/585957240.htm" />
+    <HelpKINode Title="properties" Url="html/12174984.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemListViewModel.AppId property" Url="html/812743915.htm" />
+  <HelpKINode Title="ItemListViewModel.GetModels method" Url="html/953316084.htm" />
+  <HelpKINode Title="ItemListViewModel.ItemCollection property" Url="html/398035398.htm" />
+  <HelpKINode Title="ItemListViewModel.ItemListViewModel constructor" Url="html/1988578871.htm" />
+  <HelpKINode Title="ItemListViewModel.OnAppearing method" Url="html/743166679.htm" />
+  <HelpKINode Title="ItemListViewModel.OnItemAppearing method" Url="html/1067234570.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel) class">
+    <HelpKINode Title="ListViewModelBase(TModel) Class" Url="html/1772484452.htm" />
+    <HelpKINode Title="ListViewModelBase(TModel) Members" Url="html/535555161.htm" />
+    <HelpKINode Title="about ListViewModelBase(Of TModel) class" Url="html/1772484452.htm" />
+    <HelpKINode Title="all members" Url="html/535555161.htm" />
+    <HelpKINode Title="events" Url="html/1383320881.htm" />
+    <HelpKINode Title="fields" Url="html/1786550074.htm" />
+    <HelpKINode Title="methods" Url="html/1155916843.htm" />
+    <HelpKINode Title="properties" Url="html/1615153176.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListViewModelBase(Of TModel).GetModels method" Url="html/1326922357.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel).Models property" Url="html/1964985266.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel).ModelsProperty field" Url="html/1776945740.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel).OnAppearing method" Url="html/644930760.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel).OnDisappearing method" Url="html/1833173589.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel).SelectedItem property" Url="html/277716098.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel).SelectedItemProperty field" Url="html/1682416248.htm" />
+  <HelpKINode Title="ListViewModelBase(Of TModel)._GetModels method" Url="html/1527628270.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt; class">
+    <HelpKINode Title="ListViewModelBase(TModel) Class" Url="html/1772484452.htm" />
+    <HelpKINode Title="ListViewModelBase(TModel) Members" Url="html/535555161.htm" />
+    <HelpKINode Title="about ListViewModelBase&lt;TModel&gt; class" Url="html/1772484452.htm" />
+    <HelpKINode Title="all members" Url="html/535555161.htm" />
+    <HelpKINode Title="events" Url="html/1383320881.htm" />
+    <HelpKINode Title="fields" Url="html/1786550074.htm" />
+    <HelpKINode Title="methods" Url="html/1155916843.htm" />
+    <HelpKINode Title="properties" Url="html/1615153176.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;.GetModels method" Url="html/1326922357.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;.Models property" Url="html/1964985266.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;.ModelsProperty field" Url="html/1776945740.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;.OnAppearing method" Url="html/644930760.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;.OnDisappearing method" Url="html/1833173589.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;.SelectedItem property" Url="html/277716098.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;.SelectedItemProperty field" Url="html/1682416248.htm" />
+  <HelpKINode Title="ListViewModelBase&lt;TModel&gt;._GetModels method" Url="html/1527628270.htm" />
+  <HelpKINode Title="LocalAuthStore class">
+    <HelpKINode Title="LocalAuthStore Class" Url="html/669373027.htm" />
+    <HelpKINode Title="LocalAuthStore Members" Url="html/533665187.htm" />
+    <HelpKINode Title="about LocalAuthStore class" Url="html/669373027.htm" />
+    <HelpKINode Title="all members" Url="html/533665187.htm" />
+    <HelpKINode Title="constructor" Url="html/316786864.htm" />
+    <HelpKINode Title="methods" Url="html/1479988535.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalAuthStore.Get method" Url="html/2116238254.htm" />
+  <HelpKINode Title="LocalAuthStore.LocalAuthStore constructor" Url="html/316786864.htm" />
+  <HelpKINode Title="LocalAuthStore.Set method" Url="html/1122645084.htm" />
+  <HelpKINode Title="LoginCommand property" Url="html/1020857111.htm" />
+  <HelpKINode Title="LoginCommandProperty field" Url="html/2024337121.htm" />
+  <HelpKINode Title="LoginPage class">
+    <HelpKINode Title="LoginPage Class" Url="html/915273257.htm" />
+    <HelpKINode Title="LoginPage Members" Url="html/77055300.htm" />
+    <HelpKINode Title="about LoginPage class" Url="html/915273257.htm" />
+    <HelpKINode Title="all members" Url="html/77055300.htm" />
+    <HelpKINode Title="constructor" Url="html/494239519.htm" />
+    <HelpKINode Title="constructor" Url="html/1124500846.htm" />
+    <HelpKINode Title="methods" Url="html/224352958.htm" />
+    <HelpKINode Title="properties" Url="html/2060189736.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginPage.LoginPage constructor">
+    <HelpKINode Title="LoginPage Constructor " Url="html/494239519.htm" />
+    <HelpKINode Title="LoginPage Constructor " Url="html/1124500846.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginPage.ViewModel property" Url="html/1290443058.htm" />
+  <HelpKINode Title="LoginViewModel class">
+    <HelpKINode Title="LoginViewModel Class" Url="html/302025279.htm" />
+    <HelpKINode Title="LoginViewModel Members" Url="html/600659969.htm" />
+    <HelpKINode Title="about LoginViewModel class" Url="html/302025279.htm" />
+    <HelpKINode Title="all members" Url="html/600659969.htm" />
+    <HelpKINode Title="constructor" Url="html/624748048.htm" />
+    <HelpKINode Title="events" Url="html/2000700355.htm" />
+    <HelpKINode Title="fields" Url="html/1922577154.htm" />
+    <HelpKINode Title="methods" Url="html/114174758.htm" />
+    <HelpKINode Title="properties" Url="html/89200879.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginViewModel.LoginCommand property" Url="html/1020857111.htm" />
+  <HelpKINode Title="LoginViewModel.LoginCommandProperty field" Url="html/2024337121.htm" />
+  <HelpKINode Title="LoginViewModel.LoginViewModel constructor" Url="html/624748048.htm" />
+  <HelpKINode Title="LoginViewModel.Password property" Url="html/1324552962.htm" />
+  <HelpKINode Title="LoginViewModel.PasswordProperty field" Url="html/574545890.htm" />
+  <HelpKINode Title="LoginViewModel.UserName property" Url="html/271870708.htm" />
+  <HelpKINode Title="LoginViewModel.UserNameProperty field" Url="html/1650437133.htm" />
+  <HelpKINode Title="Model property">
+    <HelpKINode Title="Model Property " Url="html/2062992557.htm" />
+    <HelpKINode Title="Model Property " Url="html/1821957956.htm" />
+    <HelpKINode Title="Model Property " Url="html/391526220.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModelProperty field">
+    <HelpKINode Title="ModelProperty Field" Url="html/1660640310.htm" />
+    <HelpKINode Title="ModelProperty Field" Url="html/625458460.htm" />
+    <HelpKINode Title="ModelProperty Field" Url="html/326157004.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Models property" Url="html/1964985266.htm" />
+  <HelpKINode Title="ModelsProperty field" Url="html/1776945740.htm" />
+  <HelpKINode Title="OnAppearing method">
+    <HelpKINode Title="OnAppearing Method " Url="html/743166679.htm" />
+    <HelpKINode Title="OnAppearing Method " Url="html/194392835.htm" />
+    <HelpKINode Title="OnAppearing Method " Url="html/644930760.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnDisappearing method">
+    <HelpKINode Title="OnDisappearing Method " Url="html/347346788.htm" />
+    <HelpKINode Title="OnDisappearing Method " Url="html/1833173589.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnItemAppearing method" Url="html/1067234570.htm" />
+  <HelpKINode Title="OnPropertyChanged method">
+    <HelpKINode Title="OnPropertyChanged Method " Url="html/47353333.htm" />
+    <HelpKINode Title="OnPropertyChanged Method " Url="html/1605482878.htm" />
+    <HelpKINode Title="OnPropertyChanged Method " Url="html/528090467.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrgDetailPage class">
+    <HelpKINode Title="OrgDetailPage Class" Url="html/184743716.htm" />
+    <HelpKINode Title="OrgDetailPage Members" Url="html/1033448106.htm" />
+    <HelpKINode Title="about OrgDetailPage class" Url="html/184743716.htm" />
+    <HelpKINode Title="all members" Url="html/1033448106.htm" />
+    <HelpKINode Title="constructor" Url="html/518993613.htm" />
+    <HelpKINode Title="constructor" Url="html/1356074840.htm" />
+    <HelpKINode Title="methods" Url="html/1366882325.htm" />
+    <HelpKINode Title="properties" Url="html/1893030661.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrgDetailPage.OrgDetailPage constructor">
+    <HelpKINode Title="OrgDetailPage Constructor " Url="html/1356074840.htm" />
+    <HelpKINode Title="OrgDetailPage Constructor " Url="html/518993613.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrgDetailPage.ViewModel property" Url="html/432343060.htm" />
+  <HelpKINode Title="OrgDetailViewModel class">
+    <HelpKINode Title="OrgDetailViewModel Class" Url="html/2119695703.htm" />
+    <HelpKINode Title="OrgDetailViewModel Members" Url="html/39852251.htm" />
+    <HelpKINode Title="about OrgDetailViewModel class" Url="html/2119695703.htm" />
+    <HelpKINode Title="all members" Url="html/39852251.htm" />
+    <HelpKINode Title="constructor" Url="html/1558489325.htm" />
+    <HelpKINode Title="events" Url="html/797207620.htm" />
+    <HelpKINode Title="fields" Url="html/367200334.htm" />
+    <HelpKINode Title="methods" Url="html/1999858114.htm" />
+    <HelpKINode Title="properties" Url="html/1015690579.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrgDetailViewModel.Model property" Url="html/391526220.htm" />
+  <HelpKINode Title="OrgDetailViewModel.ModelProperty field" Url="html/326157004.htm" />
+  <HelpKINode Title="OrgDetailViewModel.OrgDetailViewModel constructor" Url="html/1558489325.htm" />
+  <HelpKINode Title="OrgDetailViewModel.ViewSpacesCommand property" Url="html/300818193.htm" />
+  <HelpKINode Title="OrgDetailViewModel.ViewSpacesCommandProperty field" Url="html/1303993482.htm" />
+  <HelpKINode Title="OrgId property" Url="html/1812025412.htm" />
+  <HelpKINode Title="OrgListPage class">
+    <HelpKINode Title="OrgListPage Class" Url="html/657798681.htm" />
+    <HelpKINode Title="OrgListPage Members" Url="html/1740592499.htm" />
+    <HelpKINode Title="about OrgListPage class" Url="html/657798681.htm" />
+    <HelpKINode Title="all members" Url="html/1740592499.htm" />
+    <HelpKINode Title="constructor" Url="html/960665938.htm" />
+    <HelpKINode Title="constructor" Url="html/950025898.htm" />
+    <HelpKINode Title="methods" Url="html/1253098504.htm" />
+    <HelpKINode Title="properties" Url="html/1910762339.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrgListPage.OrgListPage constructor">
+    <HelpKINode Title="OrgListPage Constructor " Url="html/960665938.htm" />
+    <HelpKINode Title="OrgListPage Constructor " Url="html/950025898.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrgListPage.ViewModel property" Url="html/478119060.htm" />
+  <HelpKINode Title="OrgListViewModel class">
+    <HelpKINode Title="OrgListViewModel Class" Url="html/1520558356.htm" />
+    <HelpKINode Title="OrgListViewModel Members" Url="html/1011690391.htm" />
+    <HelpKINode Title="about OrgListViewModel class" Url="html/1520558356.htm" />
+    <HelpKINode Title="all members" Url="html/1011690391.htm" />
+    <HelpKINode Title="events" Url="html/113581646.htm" />
+    <HelpKINode Title="methods" Url="html/328108880.htm" />
+    <HelpKINode Title="properties" Url="html/710563780.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrgListViewModel.GetModels method" Url="html/613070469.htm" />
+  <HelpKINode Title="OrgListViewModel.OnPropertyChanged method" Url="html/47353333.htm" />
+  <HelpKINode Title="Password property" Url="html/1324552962.htm" />
+  <HelpKINode Title="PasswordProperty field" Url="html/574545890.htm" />
+  <HelpKINode Title="Podio property" Url="html/546518303.htm" />
+  <HelpKINode Title="PodioExample class">
+    <HelpKINode Title="PodioExample Class" Url="html/1870503857.htm" />
+    <HelpKINode Title="PodioExample Members" Url="html/1457808934.htm" />
+    <HelpKINode Title="about PodioExample class" Url="html/1870503857.htm" />
+    <HelpKINode Title="all members" Url="html/1457808934.htm" />
+    <HelpKINode Title="methods" Url="html/1693802390.htm" />
+    <HelpKINode Title="properties" Url="html/1261269150.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioExample.Podio property" Url="html/546518303.htm" />
+  <HelpKINode Title="PodioExample.Settings class">
+    <HelpKINode Title="PodioExample.Settings Class" Url="html/69107496.htm" />
+    <HelpKINode Title="PodioExample.Settings Members" Url="html/1551642790.htm" />
+    <HelpKINode Title="about PodioExample.Settings class" Url="html/69107496.htm" />
+    <HelpKINode Title="all members" Url="html/1551642790.htm" />
+    <HelpKINode Title="fields" Url="html/759439414.htm" />
+    <HelpKINode Title="methods" Url="html/1620984144.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample namespace" Url="html/570629957.htm" />
+  <HelpKINode Title="PodioPCL.MobileExample.App class">
+    <HelpKINode Title="App Class" Url="html/1646476726.htm" />
+    <HelpKINode Title="App Members" Url="html/125408077.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Interfaces namespace" Url="html/1062838975.htm" />
+  <HelpKINode Title="PodioPCL.MobileExample.Interfaces.ILog interface">
+    <HelpKINode Title="ILog Interface" Url="html/427308390.htm" />
+    <HelpKINode Title="ILog Members" Url="html/1057554183.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Interfaces.ISettings interface">
+    <HelpKINode Title="ISettings Interface" Url="html/1443446551.htm" />
+    <HelpKINode Title="ISettings Members" Url="html/1844868511.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages namespace" Url="html/639247835.htm" />
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.AppDetailPage class">
+    <HelpKINode Title="AppDetailPage Class" Url="html/1076812554.htm" />
+    <HelpKINode Title="AppDetailPage Members" Url="html/1228325473.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.AppListPage class">
+    <HelpKINode Title="AppListPage Class" Url="html/1366830490.htm" />
+    <HelpKINode Title="AppListPage Members" Url="html/2099219679.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.ItemListPage class">
+    <HelpKINode Title="ItemListPage Class" Url="html/2127271712.htm" />
+    <HelpKINode Title="ItemListPage Members" Url="html/627786150.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.LoginPage class">
+    <HelpKINode Title="LoginPage Class" Url="html/915273257.htm" />
+    <HelpKINode Title="LoginPage Members" Url="html/77055300.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.OrgDetailPage class">
+    <HelpKINode Title="OrgDetailPage Class" Url="html/184743716.htm" />
+    <HelpKINode Title="OrgDetailPage Members" Url="html/1033448106.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.OrgListPage class">
+    <HelpKINode Title="OrgListPage Class" Url="html/657798681.htm" />
+    <HelpKINode Title="OrgListPage Members" Url="html/1740592499.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.SpaceDetailPage class">
+    <HelpKINode Title="SpaceDetailPage Class" Url="html/2106915851.htm" />
+    <HelpKINode Title="SpaceDetailPage Members" Url="html/1569705204.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Pages.SpaceListPage class">
+    <HelpKINode Title="SpaceListPage Class" Url="html/695151201.htm" />
+    <HelpKINode Title="SpaceListPage Members" Url="html/1921061192.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Utility namespace" Url="html/1137962532.htm" />
+  <HelpKINode Title="PodioPCL.MobileExample.Utility.LocalAuthStore class">
+    <HelpKINode Title="LocalAuthStore Class" Url="html/669373027.htm" />
+    <HelpKINode Title="LocalAuthStore Members" Url="html/533665187.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Utility.PodioExample class">
+    <HelpKINode Title="PodioExample Class" Url="html/1870503857.htm" />
+    <HelpKINode Title="PodioExample Members" Url="html/1457808934.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Utility.PodioExample.Settings class">
+    <HelpKINode Title="PodioExample.Settings Class" Url="html/69107496.htm" />
+    <HelpKINode Title="PodioExample.Settings Members" Url="html/1551642790.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.Utility.ViewModelNavigation class">
+    <HelpKINode Title="ViewModelNavigation Class" Url="html/625653445.htm" />
+    <HelpKINode Title="ViewModelNavigation Members" Url="html/223317291.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels namespace" Url="html/25269802.htm" />
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.AppDetailViewModel class">
+    <HelpKINode Title="AppDetailViewModel Class" Url="html/696674737.htm" />
+    <HelpKINode Title="AppDetailViewModel Members" Url="html/1789942458.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.AppListViewModel class">
+    <HelpKINode Title="AppListViewModel Class" Url="html/368477206.htm" />
+    <HelpKINode Title="AppListViewModel Members" Url="html/115986752.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.ItemListViewModel class">
+    <HelpKINode Title="ItemListViewModel Class" Url="html/1410484694.htm" />
+    <HelpKINode Title="ItemListViewModel Members" Url="html/333391419.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.ListViewModelBase(Of TModel) class">
+    <HelpKINode Title="ListViewModelBase(TModel) Class" Url="html/1772484452.htm" />
+    <HelpKINode Title="ListViewModelBase(TModel) Members" Url="html/535555161.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.ListViewModelBase&lt;TModel&gt; class">
+    <HelpKINode Title="ListViewModelBase(TModel) Class" Url="html/1772484452.htm" />
+    <HelpKINode Title="ListViewModelBase(TModel) Members" Url="html/535555161.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.LoginViewModel class">
+    <HelpKINode Title="LoginViewModel Class" Url="html/302025279.htm" />
+    <HelpKINode Title="LoginViewModel Members" Url="html/600659969.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.OrgDetailViewModel class">
+    <HelpKINode Title="OrgDetailViewModel Class" Url="html/2119695703.htm" />
+    <HelpKINode Title="OrgDetailViewModel Members" Url="html/39852251.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.OrgListViewModel class">
+    <HelpKINode Title="OrgListViewModel Class" Url="html/1520558356.htm" />
+    <HelpKINode Title="OrgListViewModel Members" Url="html/1011690391.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.SpaceDetailViewModel class">
+    <HelpKINode Title="SpaceDetailViewModel Class" Url="html/1146565137.htm" />
+    <HelpKINode Title="SpaceDetailViewModel Members" Url="html/961047667.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.SpaceListViewModel class">
+    <HelpKINode Title="SpaceListViewModel Class" Url="html/778078888.htm" />
+    <HelpKINode Title="SpaceListViewModel Members" Url="html/1685230785.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PodioPCL.MobileExample.ViewModels.ViewModelBase class">
+    <HelpKINode Title="ViewModelBase Class" Url="html/2123206860.htm" />
+    <HelpKINode Title="ViewModelBase Members" Url="html/141604736.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PopViewModelAsync method" Url="html/1352489023.htm" />
+  <HelpKINode Title="PushViewModelAsnc(Of TView) method" Url="html/470011371.htm" />
+  <HelpKINode Title="PushViewModelAsnc&lt;TView&gt; method" Url="html/470011371.htm" />
+  <HelpKINode Title="RegisterPage(Of TView, TPage) method" Url="html/1557919753.htm" />
+  <HelpKINode Title="RegisterPage&lt;TView, TPage&gt; method" Url="html/1557919753.htm" />
+  <HelpKINode Title="RemoveViewModel method" Url="html/1626749950.htm" />
+  <HelpKINode Title="SelectedItem property" Url="html/277716098.htm" />
+  <HelpKINode Title="SelectedItemProperty field" Url="html/1682416248.htm" />
+  <HelpKINode Title="Set method" Url="html/1122645084.htm" />
+  <HelpKINode Title="SetSetting(Of TSetting) method" Url="html/1550049197.htm" />
+  <HelpKINode Title="SetSetting&lt;TSetting&gt; method" Url="html/1550049197.htm" />
+  <HelpKINode Title="Settings.ClientId field" Url="html/816173375.htm" />
+  <HelpKINode Title="Settings.ClientSecret field" Url="html/588910222.htm" />
+  <HelpKINode Title="SpaceDetailPage class">
+    <HelpKINode Title="SpaceDetailPage Class" Url="html/2106915851.htm" />
+    <HelpKINode Title="SpaceDetailPage Members" Url="html/1569705204.htm" />
+    <HelpKINode Title="about SpaceDetailPage class" Url="html/2106915851.htm" />
+    <HelpKINode Title="all members" Url="html/1569705204.htm" />
+    <HelpKINode Title="constructor" Url="html/2007748647.htm" />
+    <HelpKINode Title="constructor" Url="html/58541844.htm" />
+    <HelpKINode Title="methods" Url="html/966085156.htm" />
+    <HelpKINode Title="properties" Url="html/608713982.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpaceDetailPage.SpaceDetailPage constructor">
+    <HelpKINode Title="SpaceDetailPage Constructor " Url="html/58541844.htm" />
+    <HelpKINode Title="SpaceDetailPage Constructor " Url="html/2007748647.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpaceDetailPage.ViewModel property" Url="html/1983758502.htm" />
+  <HelpKINode Title="SpaceDetailViewModel class">
+    <HelpKINode Title="SpaceDetailViewModel Class" Url="html/1146565137.htm" />
+    <HelpKINode Title="SpaceDetailViewModel Members" Url="html/961047667.htm" />
+    <HelpKINode Title="about SpaceDetailViewModel class" Url="html/1146565137.htm" />
+    <HelpKINode Title="all members" Url="html/961047667.htm" />
+    <HelpKINode Title="constructor" Url="html/1905509399.htm" />
+    <HelpKINode Title="events" Url="html/269421053.htm" />
+    <HelpKINode Title="fields" Url="html/788383836.htm" />
+    <HelpKINode Title="methods" Url="html/281543529.htm" />
+    <HelpKINode Title="properties" Url="html/1072550047.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpaceDetailViewModel.Model property" Url="html/1821957956.htm" />
+  <HelpKINode Title="SpaceDetailViewModel.ModelProperty field" Url="html/1660640310.htm" />
+  <HelpKINode Title="SpaceDetailViewModel.SpaceDetailViewModel constructor" Url="html/1905509399.htm" />
+  <HelpKINode Title="SpaceDetailViewModel.ViewAppsCommand property" Url="html/413325839.htm" />
+  <HelpKINode Title="SpaceDetailViewModel.ViewAppsCommandProperty field" Url="html/1939268460.htm" />
+  <HelpKINode Title="SpaceId property" Url="html/2145712721.htm" />
+  <HelpKINode Title="SpaceListPage class">
+    <HelpKINode Title="SpaceListPage Class" Url="html/695151201.htm" />
+    <HelpKINode Title="SpaceListPage Members" Url="html/1921061192.htm" />
+    <HelpKINode Title="about SpaceListPage class" Url="html/695151201.htm" />
+    <HelpKINode Title="all members" Url="html/1921061192.htm" />
+    <HelpKINode Title="constructor" Url="html/1457205666.htm" />
+    <HelpKINode Title="constructor" Url="html/1314875500.htm" />
+    <HelpKINode Title="methods" Url="html/312808974.htm" />
+    <HelpKINode Title="properties" Url="html/2138600998.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpaceListPage.SpaceListPage constructor">
+    <HelpKINode Title="SpaceListPage Constructor " Url="html/1457205666.htm" />
+    <HelpKINode Title="SpaceListPage Constructor " Url="html/1314875500.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpaceListPage.ViewModel property" Url="html/115935700.htm" />
+  <HelpKINode Title="SpaceListViewModel class">
+    <HelpKINode Title="SpaceListViewModel Class" Url="html/778078888.htm" />
+    <HelpKINode Title="SpaceListViewModel Members" Url="html/1685230785.htm" />
+    <HelpKINode Title="about SpaceListViewModel class" Url="html/778078888.htm" />
+    <HelpKINode Title="all members" Url="html/1685230785.htm" />
+    <HelpKINode Title="constructor" Url="html/733796253.htm" />
+    <HelpKINode Title="events" Url="html/571571888.htm" />
+    <HelpKINode Title="methods" Url="html/718998806.htm" />
+    <HelpKINode Title="properties" Url="html/22898650.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpaceListViewModel.GetModels method" Url="html/1206017543.htm" />
+  <HelpKINode Title="SpaceListViewModel.OnPropertyChanged method" Url="html/528090467.htm" />
+  <HelpKINode Title="SpaceListViewModel.OrgId property" Url="html/1812025412.htm" />
+  <HelpKINode Title="SpaceListViewModel.SpaceListViewModel constructor" Url="html/733796253.htm" />
+  <HelpKINode Title="UserName property" Url="html/271870708.htm" />
+  <HelpKINode Title="UserNameProperty field" Url="html/1650437133.htm" />
+  <HelpKINode Title="ViewAppsCommand property" Url="html/413325839.htm" />
+  <HelpKINode Title="ViewAppsCommandProperty field" Url="html/1939268460.htm" />
+  <HelpKINode Title="ViewItemsCommand property" Url="html/592430049.htm" />
+  <HelpKINode Title="ViewItemsCommandProperty field" Url="html/824198061.htm" />
+  <HelpKINode Title="ViewModel property">
+    <HelpKINode Title="ViewModel Property " Url="html/432343060.htm" />
+    <HelpKINode Title="ViewModel Property " Url="html/1439367049.htm" />
+    <HelpKINode Title="ViewModel Property " Url="html/1396318655.htm" />
+    <HelpKINode Title="ViewModel Property " Url="html/471475001.htm" />
+    <HelpKINode Title="ViewModel Property " Url="html/1290443058.htm" />
+    <HelpKINode Title="ViewModel Property " Url="html/115935700.htm" />
+    <HelpKINode Title="ViewModel Property " Url="html/478119060.htm" />
+    <HelpKINode Title="ViewModel Property " Url="html/1983758502.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewModelBase class">
+    <HelpKINode Title="ViewModelBase Class" Url="html/2123206860.htm" />
+    <HelpKINode Title="ViewModelBase Members" Url="html/141604736.htm" />
+    <HelpKINode Title="about ViewModelBase class" Url="html/2123206860.htm" />
+    <HelpKINode Title="all members" Url="html/141604736.htm" />
+    <HelpKINode Title="constructor" Url="html/1610924376.htm" />
+    <HelpKINode Title="events" Url="html/720034151.htm" />
+    <HelpKINode Title="fields" Url="html/1902825093.htm" />
+    <HelpKINode Title="methods" Url="html/1983380432.htm" />
+    <HelpKINode Title="properties" Url="html/2014595433.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewModelBase.IsLoading property" Url="html/1559797792.htm" />
+  <HelpKINode Title="ViewModelBase.IsLoadingProperty field" Url="html/234299745.htm" />
+  <HelpKINode Title="ViewModelBase.OnAppearing method" Url="html/194392835.htm" />
+  <HelpKINode Title="ViewModelBase.OnDisappearing method" Url="html/347346788.htm" />
+  <HelpKINode Title="ViewModelBase.ViewModelBase constructor" Url="html/1610924376.htm" />
+  <HelpKINode Title="ViewModelBase._Log field" Url="html/1432968865.htm" />
+  <HelpKINode Title="ViewModelBase._Nav field" Url="html/1814322859.htm" />
+  <HelpKINode Title="ViewModelBase._Podio field" Url="html/1000912975.htm" />
+  <HelpKINode Title="ViewModelNavigation class">
+    <HelpKINode Title="ViewModelNavigation Class" Url="html/625653445.htm" />
+    <HelpKINode Title="ViewModelNavigation Members" Url="html/223317291.htm" />
+    <HelpKINode Title="about ViewModelNavigation class" Url="html/625653445.htm" />
+    <HelpKINode Title="all members" Url="html/223317291.htm" />
+    <HelpKINode Title="constructor" Url="html/1421380738.htm" />
+    <HelpKINode Title="methods" Url="html/849096804.htm" />
+    <HelpKINode Title="properties" Url="html/161276436.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewModelNavigation.BasePage property" Url="html/1046656613.htm" />
+  <HelpKINode Title="ViewModelNavigation.DisplayAlert method" Url="html/813747848.htm" />
+  <HelpKINode Title="ViewModelNavigation.PopViewModelAsync method" Url="html/1352489023.htm" />
+  <HelpKINode Title="ViewModelNavigation.PushViewModelAsnc(Of TView) method" Url="html/470011371.htm" />
+  <HelpKINode Title="ViewModelNavigation.PushViewModelAsnc&lt;TView&gt; method" Url="html/470011371.htm" />
+  <HelpKINode Title="ViewModelNavigation.RegisterPage(Of TView, TPage) method" Url="html/1557919753.htm" />
+  <HelpKINode Title="ViewModelNavigation.RegisterPage&lt;TView, TPage&gt; method" Url="html/1557919753.htm" />
+  <HelpKINode Title="ViewModelNavigation.RemoveViewModel method" Url="html/1626749950.htm" />
+  <HelpKINode Title="ViewModelNavigation.ViewModelNavigation constructor" Url="html/1421380738.htm" />
+  <HelpKINode Title="ViewSpacesCommand property" Url="html/300818193.htm" />
+  <HelpKINode Title="ViewSpacesCommandProperty field" Url="html/1303993482.htm" />
+  <HelpKINode Title="WriteLine method" Url="html/1044735387.htm" />
+  <HelpKINode Title="_GetModels method" Url="html/1527628270.htm" />
+  <HelpKINode Title="_Log field" Url="html/1432968865.htm" />
+  <HelpKINode Title="_Nav field" Url="html/1814322859.htm" />
+  <HelpKINode Title="_Podio field" Url="html/1000912975.htm" />
+</HelpKI>

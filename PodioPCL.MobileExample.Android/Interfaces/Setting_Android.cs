@@ -12,6 +12,7 @@ namespace PodioPCL.MobileExample.Droid.Interfaces
 	public class Settings_Android : ISettings
 	{
 		public Context Context { get; set; }
+
 		public ISharedPreferences SharedPreferences
 		{
 			get

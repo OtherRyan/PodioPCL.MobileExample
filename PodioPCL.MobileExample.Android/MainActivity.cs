@@ -29,7 +29,7 @@ namespace PodioPCL.MobileExample.Droid
 			settings.Context = this;
 
 			App = new App();
-
+			
 			LoadApplication(App);
 		}
 	}

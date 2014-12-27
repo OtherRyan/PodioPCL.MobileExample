@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="4efec490-fea8-4bb3-91b8-32a7e0d15618" Title="PodioPCL.MobileExample Namespace" Url="html/570629957.htm">
+    <HelpTOCNode Id="d644d614-6380-41a1-ac98-331087ea32fc" Title="App Class" Url="html/1646476726.htm">
+      <HelpTOCNode Title="App Members" Url="html/125408077.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/951995599.htm" />
+      <HelpTOCNode Title="App Methods" Url="html/1517972235.htm" />
+      <HelpTOCNode Title="App Properties" Url="html/1395084330.htm" />
+      <HelpTOCNode Title="App Events" Url="html/1233061319.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="686edbf6-790a-4af9-a033-19da7c3d3af9" Title="PodioPCL.MobileExample.Interfaces Namespace" Url="html/1062838975.htm">
+    <HelpTOCNode Id="782b041e-d54e-4353-85e2-fb73b47f7ca2" Title="ILog Interface" Url="html/427308390.htm">
+      <HelpTOCNode Title="ILog Members" Url="html/1057554183.htm" />
+      <HelpTOCNode Id="7d0177f9-2ec4-4f74-95ab-64816e4d9818" Title="ILog Methods" Url="html/280360683.htm">
+        <HelpTOCNode Title="WriteLine Method " Url="html/1044735387.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e6f51aa2-7dbe-44cf-a2c7-a93b43ebc6fc" Title="ISettings Interface" Url="html/1443446551.htm">
+      <HelpTOCNode Title="ISettings Members" Url="html/1844868511.htm" />
+      <HelpTOCNode Id="888d3326-c57c-42bf-992e-aad1a52b9a34" Title="ISettings Methods" Url="html/967602120.htm">
+        <HelpTOCNode Title="GetSetting(TSetting) Method " Url="html/1171470639.htm" />
+        <HelpTOCNode Title="SetSetting(TSetting) Method " Url="html/1550049197.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="624f341f-4676-4496-8ce7-0243d8e65deb" Title="PodioPCL.MobileExample.Pages Namespace" Url="html/639247835.htm">
+    <HelpTOCNode Id="6628caeb-6507-4f5e-8a66-27ddc9ba669d" Title="AppDetailPage Class" Url="html/1076812554.htm">
+      <HelpTOCNode Title="AppDetailPage Members" Url="html/1228325473.htm" />
+      <HelpTOCNode Title="AppDetailPage Constructor " Url="html/187689108.htm" />
+      <HelpTOCNode Title="AppDetailPage Constructor " Url="html/947698023.htm" />
+      <HelpTOCNode Title="AppDetailPage Methods" Url="html/608153191.htm" />
+      <HelpTOCNode Id="25011ab4-c241-47a7-ad7e-f9455c704834" Title="AppDetailPage Properties" Url="html/1416441927.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/1396318655.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7a886e88-071b-4343-89ac-893ad603061f" Title="AppListPage Class" Url="html/1366830490.htm">
+      <HelpTOCNode Title="AppListPage Members" Url="html/2099219679.htm" />
+      <HelpTOCNode Title="AppListPage Constructor " Url="html/841505745.htm" />
+      <HelpTOCNode Title="AppListPage Constructor " Url="html/1329814936.htm" />
+      <HelpTOCNode Title="AppListPage Methods" Url="html/2097659010.htm" />
+      <HelpTOCNode Id="9384f179-97c7-4752-9bfb-8c0e1f0e0cc5" Title="AppListPage Properties" Url="html/1400527916.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/1439367049.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ef8a71c0-d1b1-4057-802a-6c6d311e0970" Title="ItemListPage Class" Url="html/2127271712.htm">
+      <HelpTOCNode Title="ItemListPage Members" Url="html/627786150.htm" />
+      <HelpTOCNode Title="ItemListPage Constructor " Url="html/1427945898.htm" />
+      <HelpTOCNode Title="ItemListPage Constructor " Url="html/1893037576.htm" />
+      <HelpTOCNode Title="ItemListPage Methods" Url="html/292015842.htm" />
+      <HelpTOCNode Id="a2631160-1ef5-4e69-9934-343602fe5428" Title="ItemListPage Properties" Url="html/1516840702.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/471475001.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c55c6dc1-f475-4dc5-bca6-5bd988fd91a9" Title="LoginPage Class" Url="html/915273257.htm">
+      <HelpTOCNode Title="LoginPage Members" Url="html/77055300.htm" />
+      <HelpTOCNode Title="LoginPage Constructor " Url="html/1124500846.htm" />
+      <HelpTOCNode Title="LoginPage Constructor " Url="html/494239519.htm" />
+      <HelpTOCNode Title="LoginPage Methods" Url="html/224352958.htm" />
+      <HelpTOCNode Id="2b519c06-8680-4eab-8e24-4145eee041cc" Title="LoginPage Properties" Url="html/2060189736.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/1290443058.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="425efbe2-8dac-4f40-a3c6-28bee019f0a7" Title="OrgDetailPage Class" Url="html/184743716.htm">
+      <HelpTOCNode Title="OrgDetailPage Members" Url="html/1033448106.htm" />
+      <HelpTOCNode Title="OrgDetailPage Constructor " Url="html/1356074840.htm" />
+      <HelpTOCNode Title="OrgDetailPage Constructor " Url="html/518993613.htm" />
+      <HelpTOCNode Title="OrgDetailPage Methods" Url="html/1366882325.htm" />
+      <HelpTOCNode Id="e251cfd2-033c-4fc1-bdb2-71d6ced4d15b" Title="OrgDetailPage Properties" Url="html/1893030661.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/432343060.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fbcda5b9-37e0-402e-b77d-3a198e27f24d" Title="OrgListPage Class" Url="html/657798681.htm">
+      <HelpTOCNode Title="OrgListPage Members" Url="html/1740592499.htm" />
+      <HelpTOCNode Title="OrgListPage Constructor " Url="html/950025898.htm" />
+      <HelpTOCNode Title="OrgListPage Constructor " Url="html/960665938.htm" />
+      <HelpTOCNode Title="OrgListPage Methods" Url="html/1253098504.htm" />
+      <HelpTOCNode Id="acbe2d0d-b700-4536-9477-cf163c73d578" Title="OrgListPage Properties" Url="html/1910762339.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/478119060.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d8476348-9465-43e0-92bd-235ad5406e0a" Title="SpaceDetailPage Class" Url="html/2106915851.htm">
+      <HelpTOCNode Title="SpaceDetailPage Members" Url="html/1569705204.htm" />
+      <HelpTOCNode Title="SpaceDetailPage Constructor " Url="html/2007748647.htm" />
+      <HelpTOCNode Title="SpaceDetailPage Constructor " Url="html/58541844.htm" />
+      <HelpTOCNode Title="SpaceDetailPage Methods" Url="html/966085156.htm" />
+      <HelpTOCNode Id="35dadbc5-d153-46ce-8997-7e7bc47256bc" Title="SpaceDetailPage Properties" Url="html/608713982.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/1983758502.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4f4fbed8-503c-4c1f-9b07-d35931cd3b64" Title="SpaceListPage Class" Url="html/695151201.htm">
+      <HelpTOCNode Title="SpaceListPage Members" Url="html/1921061192.htm" />
+      <HelpTOCNode Title="SpaceListPage Constructor " Url="html/1314875500.htm" />
+      <HelpTOCNode Title="SpaceListPage Constructor " Url="html/1457205666.htm" />
+      <HelpTOCNode Title="SpaceListPage Methods" Url="html/312808974.htm" />
+      <HelpTOCNode Id="2d238940-9b34-4df7-8004-1c322f1e0a6a" Title="SpaceListPage Properties" Url="html/2138600998.htm">
+        <HelpTOCNode Title="ViewModel Property " Url="html/115935700.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7a4a3045-18e3-4791-a0b6-b1278db45879" Title="PodioPCL.MobileExample.Utility Namespace" Url="html/1137962532.htm">
+    <HelpTOCNode Id="1c876f60-943f-4e27-a0d7-58e1ddd3ca6b" Title="LocalAuthStore Class" Url="html/669373027.htm">
+      <HelpTOCNode Title="LocalAuthStore Members" Url="html/533665187.htm" />
+      <HelpTOCNode Title="LocalAuthStore Constructor " Url="html/316786864.htm" />
+      <HelpTOCNode Id="e13f8805-b54f-4c46-8a85-5586061a8ffa" Title="LocalAuthStore Methods" Url="html/1479988535.htm">
+        <HelpTOCNode Title="Get Method " Url="html/2116238254.htm" />
+        <HelpTOCNode Title="Set Method " Url="html/1122645084.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd669380-bc5a-4372-b631-d495ada31db8" Title="PodioExample Class" Url="html/1870503857.htm">
+      <HelpTOCNode Title="PodioExample Members" Url="html/1457808934.htm" />
+      <HelpTOCNode Title="PodioExample Methods" Url="html/1693802390.htm" />
+      <HelpTOCNode Id="c081ffc7-029e-45e3-a5fa-a716e927594b" Title="PodioExample Properties" Url="html/1261269150.htm">
+        <HelpTOCNode Title="Podio Property " Url="html/546518303.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="07b61ff6-617c-4a05-bb0e-fab952c997f6" Title="PodioExample.Settings Class" Url="html/69107496.htm">
+      <HelpTOCNode Title="PodioExample.Settings Members" Url="html/1551642790.htm" />
+      <HelpTOCNode Id="9c4373de-a902-4fc7-bf0b-b8552db83961" Title="PodioExample.Settings Fields" Url="html/759439414.htm">
+        <HelpTOCNode Title="ClientId Field" Url="html/816173375.htm" />
+        <HelpTOCNode Title="ClientSecret Field" Url="html/588910222.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PodioExample.Settings Methods" Url="html/1620984144.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="761cd8b7-1de5-4619-9cda-dcfcc9657552" Title="ViewModelNavigation Class" Url="html/625653445.htm">
+      <HelpTOCNode Title="ViewModelNavigation Members" Url="html/223317291.htm" />
+      <HelpTOCNode Title="ViewModelNavigation Constructor " Url="html/1421380738.htm" />
+      <HelpTOCNode Id="8ad40e9a-56ac-4d8f-b101-0a39b169e1fa" Title="ViewModelNavigation Methods" Url="html/849096804.htm">
+        <HelpTOCNode Id="ecf39011-63d5-4a6b-b0d1-03e973b7c4f9" Title="DisplayAlert Method " Url="html/813747848.htm">
+          <HelpTOCNode Title="DisplayAlert Method (String, String, String)" Url="html/1295957310.htm" />
+          <HelpTOCNode Title="DisplayAlert Method (String, String, String, String)" Url="html/1935934954.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PopViewModelAsync Method " Url="html/1352489023.htm" />
+        <HelpTOCNode Title="PushViewModelAsnc(TView) Method " Url="html/470011371.htm" />
+        <HelpTOCNode Title="RegisterPage(TView, TPage) Method " Url="html/1557919753.htm" />
+        <HelpTOCNode Title="RemoveViewModel Method " Url="html/1626749950.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59446e97-44c1-4947-aab0-a9589d0cf79e" Title="ViewModelNavigation Properties" Url="html/161276436.htm">
+        <HelpTOCNode Title="BasePage Property " Url="html/1046656613.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5dca0e89-de2c-46e2-9d97-0e16011ad6a4" Title="PodioPCL.MobileExample.ViewModels Namespace" Url="html/25269802.htm">
+    <HelpTOCNode Id="a26a2c44-a510-4a6b-ab62-2584daa39b21" Title="AppDetailViewModel Class" Url="html/696674737.htm">
+      <HelpTOCNode Title="AppDetailViewModel Members" Url="html/1789942458.htm" />
+      <HelpTOCNode Title="AppDetailViewModel Constructor " Url="html/961801712.htm" />
+      <HelpTOCNode Id="b4f8d6ab-b734-419e-8a43-5edef4c532e9" Title="AppDetailViewModel Fields" Url="html/144051537.htm">
+        <HelpTOCNode Title="ModelProperty Field" Url="html/625458460.htm" />
+        <HelpTOCNode Title="ViewItemsCommandProperty Field" Url="html/824198061.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AppDetailViewModel Methods" Url="html/1626098023.htm" />
+      <HelpTOCNode Id="b4263ba0-cdb7-4cc6-a8b1-2a004f65c201" Title="AppDetailViewModel Properties" Url="html/1446226655.htm">
+        <HelpTOCNode Title="Model Property " Url="html/2062992557.htm" />
+        <HelpTOCNode Title="ViewItemsCommand Property " Url="html/592430049.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AppDetailViewModel Events" Url="html/236979387.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0fb14663-561d-48b1-b5cf-808756b277a6" Title="AppListViewModel Class" Url="html/368477206.htm">
+      <HelpTOCNode Title="AppListViewModel Members" Url="html/115986752.htm" />
+      <HelpTOCNode Title="AppListViewModel Constructor " Url="html/878815139.htm" />
+      <HelpTOCNode Id="07c527f7-491f-4637-9e24-6d8e6bd812ab" Title="AppListViewModel Methods" Url="html/1749138902.htm">
+        <HelpTOCNode Title="GetModels Method " Url="html/143400634.htm" />
+        <HelpTOCNode Title="OnPropertyChanged Method " Url="html/1605482878.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2b4603a7-8852-4f53-ac58-c2dc37e97a78" Title="AppListViewModel Properties" Url="html/1792558819.htm">
+        <HelpTOCNode Title="SpaceId Property " Url="html/2145712721.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AppListViewModel Events" Url="html/758703015.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3b0e58d4-0be9-40b0-94ee-e8b858ce829e" Title="ItemListViewModel Class" Url="html/1410484694.htm">
+      <HelpTOCNode Title="ItemListViewModel Members" Url="html/333391419.htm" />
+      <HelpTOCNode Title="ItemListViewModel Constructor " Url="html/1988578871.htm" />
+      <HelpTOCNode Id="970c0710-1046-4058-8177-515ab5f760f7" Title="ItemListViewModel Methods" Url="html/585957240.htm">
+        <HelpTOCNode Title="GetModels Method " Url="html/953316084.htm" />
+        <HelpTOCNode Title="OnAppearing Method " Url="html/743166679.htm" />
+        <HelpTOCNode Title="OnItemAppearing Method " Url="html/1067234570.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1761fefd-7c49-4332-a509-2fb521ced9a2" Title="ItemListViewModel Properties" Url="html/12174984.htm">
+        <HelpTOCNode Title="AppId Property " Url="html/812743915.htm" />
+        <HelpTOCNode Title="ItemCollection Property " Url="html/398035398.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ItemListViewModel Events" Url="html/1230411089.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9263765b-5602-42b4-bc93-46027b8fe3cc" Title="ListViewModelBase(TModel) Class" Url="html/1772484452.htm">
+      <HelpTOCNode Title="ListViewModelBase(TModel) Members" Url="html/535555161.htm" />
+      <HelpTOCNode Id="16e89ff9-e309-44b0-b524-6d060baeef0d" Title="ListViewModelBase(TModel) Fields" Url="html/1786550074.htm">
+        <HelpTOCNode Title="ModelsProperty Field" Url="html/1776945740.htm" />
+        <HelpTOCNode Title="SelectedItemProperty Field" Url="html/1682416248.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b1272d8-d30f-4391-9357-ffddd9ef7e76" Title="ListViewModelBase(TModel) Methods" Url="html/1155916843.htm">
+        <HelpTOCNode Title="_GetModels Method " Url="html/1527628270.htm" />
+        <HelpTOCNode Title="GetModels Method " Url="html/1326922357.htm" />
+        <HelpTOCNode Title="OnAppearing Method " Url="html/644930760.htm" />
+        <HelpTOCNode Title="OnDisappearing Method " Url="html/1833173589.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aa04ae9c-f562-408e-93bb-0a363a6e4069" Title="ListViewModelBase(TModel) Properties" Url="html/1615153176.htm">
+        <HelpTOCNode Title="Models Property " Url="html/1964985266.htm" />
+        <HelpTOCNode Title="SelectedItem Property " Url="html/277716098.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ListViewModelBase(TModel) Events" Url="html/1383320881.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cde6af3d-acdc-4e1d-98ca-860620b26186" Title="LoginViewModel Class" Url="html/302025279.htm">
+      <HelpTOCNode Title="LoginViewModel Members" Url="html/600659969.htm" />
+      <HelpTOCNode Title="LoginViewModel Constructor " Url="html/624748048.htm" />
+      <HelpTOCNode Id="f89eb837-2b06-4376-9b83-40eec70748d3" Title="LoginViewModel Fields" Url="html/1922577154.htm">
+        <HelpTOCNode Title="LoginCommandProperty Field" Url="html/2024337121.htm" />
+        <HelpTOCNode Title="PasswordProperty Field" Url="html/574545890.htm" />
+        <HelpTOCNode Title="UserNameProperty Field" Url="html/1650437133.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LoginViewModel Methods" Url="html/114174758.htm" />
+      <HelpTOCNode Id="bb94117e-b551-488f-ad48-baec177fc216" Title="LoginViewModel Properties" Url="html/89200879.htm">
+        <HelpTOCNode Title="LoginCommand Property " Url="html/1020857111.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/1324552962.htm" />
+        <HelpTOCNode Title="UserName Property " Url="html/271870708.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LoginViewModel Events" Url="html/2000700355.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a48f7c6c-0676-4841-a6f1-859b0d7995d1" Title="OrgDetailViewModel Class" Url="html/2119695703.htm">
+      <HelpTOCNode Title="OrgDetailViewModel Members" Url="html/39852251.htm" />
+      <HelpTOCNode Title="OrgDetailViewModel Constructor " Url="html/1558489325.htm" />
+      <HelpTOCNode Id="262434d1-ca65-4776-b318-603c26b33203" Title="OrgDetailViewModel Fields" Url="html/367200334.htm">
+        <HelpTOCNode Title="ModelProperty Field" Url="html/326157004.htm" />
+        <HelpTOCNode Title="ViewSpacesCommandProperty Field" Url="html/1303993482.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OrgDetailViewModel Methods" Url="html/1999858114.htm" />
+      <HelpTOCNode Id="cc94b089-1545-470c-ab6a-756eade4f6f4" Title="OrgDetailViewModel Properties" Url="html/1015690579.htm">
+        <HelpTOCNode Title="Model Property " Url="html/391526220.htm" />
+        <HelpTOCNode Title="ViewSpacesCommand Property " Url="html/300818193.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OrgDetailViewModel Events" Url="html/797207620.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="25a4d923-5f2f-4f71-9d9c-eb7c4650895a" Title="OrgListViewModel Class" Url="html/1520558356.htm">
+      <HelpTOCNode Title="OrgListViewModel Members" Url="html/1011690391.htm" />
+      <HelpTOCNode Id="65f8cc06-c96c-4b31-8ae0-9cf3c7e0eb4c" Title="OrgListViewModel Methods" Url="html/328108880.htm">
+        <HelpTOCNode Title="GetModels Method " Url="html/613070469.htm" />
+        <HelpTOCNode Title="OnPropertyChanged Method " Url="html/47353333.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OrgListViewModel Properties" Url="html/710563780.htm" />
+      <HelpTOCNode Title="OrgListViewModel Events" Url="html/113581646.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1e4a976f-9b3c-45a0-b390-b018da276788" Title="SpaceDetailViewModel Class" Url="html/1146565137.htm">
+      <HelpTOCNode Title="SpaceDetailViewModel Members" Url="html/961047667.htm" />
+      <HelpTOCNode Title="SpaceDetailViewModel Constructor " Url="html/1905509399.htm" />
+      <HelpTOCNode Id="85392e83-2d7e-442e-b60c-fc58b9c3ce24" Title="SpaceDetailViewModel Fields" Url="html/788383836.htm">
+        <HelpTOCNode Title="ModelProperty Field" Url="html/1660640310.htm" />
+        <HelpTOCNode Title="ViewAppsCommandProperty Field" Url="html/1939268460.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SpaceDetailViewModel Methods" Url="html/281543529.htm" />
+      <HelpTOCNode Id="d776e9af-4ff1-4a36-b2ab-fd9dca9dd53b" Title="SpaceDetailViewModel Properties" Url="html/1072550047.htm">
+        <HelpTOCNode Title="Model Property " Url="html/1821957956.htm" />
+        <HelpTOCNode Title="ViewAppsCommand Property " Url="html/413325839.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SpaceDetailViewModel Events" Url="html/269421053.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bae1cb56-8499-45e1-96c6-eec0458ce8a0" Title="SpaceListViewModel Class" Url="html/778078888.htm">
+      <HelpTOCNode Title="SpaceListViewModel Members" Url="html/1685230785.htm" />
+      <HelpTOCNode Title="SpaceListViewModel Constructor " Url="html/733796253.htm" />
+      <HelpTOCNode Id="38088de2-7801-4259-9994-d6c4eb8f4f05" Title="SpaceListViewModel Methods" Url="html/718998806.htm">
+        <HelpTOCNode Title="GetModels Method " Url="html/1206017543.htm" />
+        <HelpTOCNode Title="OnPropertyChanged Method " Url="html/528090467.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1c206332-cfd7-4503-8307-8c702f31e559" Title="SpaceListViewModel Properties" Url="html/22898650.htm">
+        <HelpTOCNode Title="OrgId Property " Url="html/1812025412.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SpaceListViewModel Events" Url="html/571571888.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0e08efac-06ea-4869-b0ca-bc4bab17f94a" Title="ViewModelBase Class" Url="html/2123206860.htm">
+      <HelpTOCNode Title="ViewModelBase Members" Url="html/141604736.htm" />
+      <HelpTOCNode Title="ViewModelBase Constructor " Url="html/1610924376.htm" />
+      <HelpTOCNode Id="26d02286-d88e-4dd5-810b-736b9895889d" Title="ViewModelBase Fields" Url="html/1902825093.htm">
+        <HelpTOCNode Title="_Log Field" Url="html/1432968865.htm" />
+        <HelpTOCNode Title="_Nav Field" Url="html/1814322859.htm" />
+        <HelpTOCNode Title="_Podio Field" Url="html/1000912975.htm" />
+        <HelpTOCNode Title="IsLoadingProperty Field" Url="html/234299745.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aa4678ba-a9d3-4ae3-aa48-c3c9ec8bfa62" Title="ViewModelBase Methods" Url="html/1983380432.htm">
+        <HelpTOCNode Title="OnAppearing Method " Url="html/194392835.htm" />
+        <HelpTOCNode Title="OnDisappearing Method " Url="html/347346788.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="63916b3f-4778-445b-9035-1080404e1fb7" Title="ViewModelBase Properties" Url="html/2014595433.htm">
+        <HelpTOCNode Title="IsLoading Property " Url="html/1559797792.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ViewModelBase Events" Url="html/720034151.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

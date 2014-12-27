@@ -4,10 +4,21 @@ using Xamarin.Forms;
 
 namespace PodioPCL.MobileExample.Pages
 {
+	/// <summary>
+	/// Class ItemListPage.
+	/// </summary>
 	public partial class ItemListPage
 	{
+		/// <summary>
+		/// Gets or sets the view model.
+		/// </summary>
+		/// <value>The view model.</value>
 		public ItemListViewModel ViewModel { get; set; }
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ItemListPage"/> class.
+		/// </summary>
+		/// <param name="viewModel">The view model.</param>
 		public ItemListPage(ItemListViewModel viewModel)
 		{
 			BindingContext = ViewModel = viewModel;
@@ -17,10 +28,10 @@ namespace PodioPCL.MobileExample.Pages
 
 			InitializeComponent();
 
-			ListView.ItemAppearing += ListView_ItemAppearing;
+			ListView.ItemAppearing += _ListView_ItemAppearing;
 		}
 
-		void ListView_ItemAppearing(object sender, ItemVisibilityEventArgs e)
+		private void _ListView_ItemAppearing(object sender, ItemVisibilityEventArgs e)
 		{
 			ViewModel.OnItemAppearing((Models.Item)e.Item);
 		}

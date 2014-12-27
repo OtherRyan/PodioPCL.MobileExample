@@ -9,6 +9,9 @@ using Xamarin.Forms;
 
 namespace PodioPCL.MobileExample
 {
+	/// <summary>
+	/// THe App Class creates an Xamarin Forms Application to be called from each Platform.
+	/// </summary>
 	public class App : Application
 	{
 		private ViewModelNavigation _Nav;
@@ -16,6 +19,9 @@ namespace PodioPCL.MobileExample
 		private LoginViewModel _LoginViewModel;
 		private OrgListViewModel _OrgListViewModel;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="App"/> class.
+		/// </summary>
 		public App()
 		{
 			//Setup navigation

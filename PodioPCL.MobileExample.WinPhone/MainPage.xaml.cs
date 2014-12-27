@@ -9,18 +9,24 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Platform.WinPhone;
 
 
 namespace PodioPCL.MobileExample.WinPhone
 {
-	public partial class MainPage : PhoneApplicationPage
+	public partial class MainPage : FormsApplicationPage
 	{
+		public PodioPCL.MobileExample.App Application { get; set; }
+
 		public MainPage()
 		{
 			InitializeComponent();
 
 			Forms.Init();
-			Content = PodioPCL.MobileExample.App.GetMainPage().ConvertPageToUIElement(this);
+
+			Application = new MobileExample.App();
+
+			LoadApplication(Application);
 		}
 	}
 }

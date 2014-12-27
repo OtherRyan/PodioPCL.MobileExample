@@ -4,40 +4,59 @@ using Xamarin.Forms;
 
 namespace PodioPCL.MobileExample.ViewModels
 {
+	/// <summary>
+	/// Class LoginViewModel.
+	/// </summary>
 	public class LoginViewModel : ViewModelBase
 	{
-		public static readonly BindableProperty IsLoadingProperty =
-			BindableProperty.Create("IsLoading", typeof(bool), typeof(LoginViewModel), default(bool));
-		public bool IsLoading
-		{
-			get { return (bool)GetValue(IsLoadingProperty); }
-			set { SetValue(IsLoadingProperty, value); }
-		}
-
+		/// <summary>
+		/// The UserName BindableProperty
+		/// </summary>
 		public static readonly BindableProperty UserNameProperty =
 			BindableProperty.Create("UserName", typeof(string), typeof(LoginViewModel), default(string));
+		/// <summary>
+		/// Gets or sets the UserName to log in with.<br />This is a <see cref="BindableProperty"/>
+		/// </summary>
+		/// <value>The UserName</value>
 		public string UserName
 		{
 			get { return (string)GetValue(UserNameProperty); }
 			set { SetValue(UserNameProperty, value); }
 		}
 
+		/// <summary>
+		/// The password BindableProperty.
+		/// </summary>
 		public static readonly BindableProperty PasswordProperty =
 			BindableProperty.Create("Password", typeof(string), typeof(LoginViewModel), default(string));
+		/// <summary>
+		/// Gets or sets the password.<br />This is a <see cref="BindableProperty"/>
+		/// </summary>
+		/// <value>The password.</value>
 		public string Password
 		{
 			get { return (string)GetValue(PasswordProperty); }
 			set { SetValue(PasswordProperty, value); }
 		}
 
+		/// <summary>
+		/// The login command BindableProperty
+		/// </summary>
 		public static readonly BindableProperty LoginCommandProperty =
 			BindableProperty.Create("LoginCommand", typeof(Command), typeof(LoginViewModel), default(Command));
+		/// <summary>
+		/// Gets or sets the login command.<br />This is a <see cref="BindableProperty"/>
+		/// </summary>
+		/// <value>The login command.</value>
 		public Command LoginCommand
 		{
 			get { return (Command)GetValue(LoginCommandProperty); }
 			set { SetValue(LoginCommandProperty, value); }
 		}
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="LoginViewModel"/> class.
+		/// </summary>
 		public LoginViewModel()
 		{
 			_InitializeCommands();

@@ -13,15 +13,15 @@
     <HelpFileName>PodioPCL.MobileExample</HelpFileName>
     <ImageFolderPath />
     <HtmlFormats>
-      <HtmlHelp>true</HtmlHelp>
+      <HtmlHelp>false</HtmlHelp>
       <MSHelpViewer>false</MSHelpViewer>
       <MSHelp2>false</MSHelp2>
-      <Website>false</Website>
+      <Website>true</Website>
     </HtmlFormats>
     <IncludeScopes>
       <Public>true</Public>
       <Internal>false</Internal>
-      <Protected>false</Protected>
+      <Protected>true</Protected>
       <Private>false</Private>
       <Inherited>true</Inherited>
       <InheritedFromReferences>true</InheritedFromReferences>
@@ -31,7 +31,9 @@
     <ResolveCrefLinks>true</ResolveCrefLinks>
     <HeaderText />
     <FooterText />
-    <SelectedProjects />
+    <SelectedProjects>
+      <SelectedProject>PodioPCL.MobileExample</SelectedProject>
+    </SelectedProjects>
   </HelpConfiguration>
 </HelpConfigurations>
 </GhostDoc>

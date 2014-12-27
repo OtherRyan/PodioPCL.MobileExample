@@ -1335,6 +1335,11 @@
     <xs:attribute name="GestureRecognizers" type="xs:string"></xs:attribute>
   </xs:complexType>
   <xs:complexType name="ListView">
+    <xs:sequence>
+      <xs:choice maxOccurs="unbounded" minOccurs="1">
+        <xs:element name="Layout.ItemTemplate" type="xs:string"></xs:element>
+      </xs:choice>
+    </xs:sequence>
     <xs:attribute name="SelectedItem" type="xs:string"></xs:attribute>
     <xs:attribute name="HasUnevenRows" type="xs:boolean"></xs:attribute>
     <xs:attribute name="RowHeight" type="xs:int"></xs:attribute>

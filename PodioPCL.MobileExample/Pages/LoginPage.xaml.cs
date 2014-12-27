@@ -7,10 +7,21 @@ using System.Threading.Tasks;
 
 namespace PodioPCL.MobileExample.Pages
 {
+	/// <summary>
+	/// Class LoginPage.
+	/// </summary>
 	public partial class LoginPage
 	{
+		/// <summary>
+		/// Gets or sets the view model.
+		/// </summary>
+		/// <value>The view model.</value>
 		public LoginViewModel ViewModel { get; set; }
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="LoginPage"/> class.
+		/// </summary>
+		/// <param name="viewModel">The view model.</param>
 		public LoginPage(LoginViewModel viewModel)
 		{
 			BindingContext = ViewModel = viewModel;
