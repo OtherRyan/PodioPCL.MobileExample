@@ -1,4 +1,5 @@
 ﻿using PodioPCL.MobileExample.Utility;
+using System;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(PodioExample))]
@@ -19,6 +20,10 @@ namespace PodioPCL.MobileExample.Utility
 			{
 				if (_Podio == null)
 				{
+					if (string.IsNullOrEmpty(Settings.ClientId) || string.IsNullOrEmpty(Settings.ClientSecret))
+					{
+						throw new ArgumentNullException("Podio ClientId and ClientSecret must be set inside the PodioPCL.MobileExample.Utility.PodioExample class");
+					}
 					_Podio = new Podio(Settings.ClientId, Settings.ClientSecret, new LocalAuthStore());
 				}
 				return _Podio;
@@ -34,12 +39,11 @@ namespace PodioPCL.MobileExample.Utility
 			/// <summary>
 			/// The Client Id from Podio settings.
 			/// </summary>
-			//public static readonly string ClientId = "";
-			
+			public static readonly string ClientId = "";
 			/// <summary>
 			/// The Client Secret from Podio settings.
 			/// </summary>
-			//public static readonly string ClientSecret = "";
+			public static readonly string ClientSecret = "";
 		}
 	}
 }
