@@ -31,7 +31,8 @@ namespace PodioPCL.MobileExample.Utility
 		/// <returns>PodioOAuth.</returns>
 		public PodioOAuth Get()
 		{
-			return _Settings.GetSetting(AuthStoreSettingName, new PodioOAuth());
+			var auth = _Settings.GetSetting(AuthStoreSettingName, new PodioOAuth());
+			return auth;
 		}
 
 		/// <summary>

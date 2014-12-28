@@ -25,6 +25,22 @@ namespace PodioPCL.MobileExample.ViewModels
 			set { SetValue(IsLoadingProperty, value); }
 		}
 
+		public static readonly BindableProperty LoadingTitleProperty =
+			BindableProperty.Create("LoadingTitle", typeof(string), typeof(ViewModelBase), "Loading...");
+		public string LoadingTitle
+		{
+			get { return (string)GetValue(LoadingTitleProperty); }
+			set { SetValue(LoadingTitleProperty, value); }
+		}
+
+		public static readonly BindableProperty LoadingMessageProperty =
+			BindableProperty.Create("LoadingMessage", typeof(string), typeof(ViewModelBase), "Downloading new data from the Podio API");
+		public string LoadingMessage
+		{
+			get { return (string)GetValue(LoadingMessageProperty); }
+			set { SetValue(LoadingMessageProperty, value); }
+		}
+
 		/// <summary>
 		/// The local implementation of the ILog interface.
 		/// </summary>

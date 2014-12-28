@@ -38,6 +38,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Controls\LoadingContentPage.cs" />
+    <Compile Include="Controls\LoadingListView.cs" />
     <Compile Include="Interfaces\ILog.cs" />
     <Compile Include="Interfaces\ISettings.cs" />
     <Compile Include="NamespaceDoc.cs" />

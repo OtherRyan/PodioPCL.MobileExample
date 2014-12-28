@@ -60,6 +60,8 @@ namespace PodioPCL.MobileExample.ViewModels
 		public LoginViewModel()
 		{
 			_InitializeCommands();
+			LoadingTitle = "Logging In";
+			LoadingMessage = "Attempting to log into Podio.";
 		}
 
 		private void _InitializeCommands()

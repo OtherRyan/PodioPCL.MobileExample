@@ -27,6 +27,7 @@ namespace PodioPCL.MobileExample.ViewModels
 		public SpaceListViewModel(int orgId)
 		{
 			OrgId = orgId;
+			LoadingMessage = "Downloading workspaces for the organization.";
 		}
 
 

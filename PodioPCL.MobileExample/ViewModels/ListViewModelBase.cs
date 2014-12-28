@@ -86,6 +86,7 @@ namespace PodioPCL.MobileExample.ViewModels
 		protected async void _GetModels()
 		{
 			_Log.WriteLine("_GetModels: start");
+			IsLoading = true;
 			if (_GetModelsTokenSource != null)
 			{
 				_GetModelsTokenSource.Cancel();
@@ -112,6 +113,7 @@ namespace PodioPCL.MobileExample.ViewModels
 			{
 				_Log.WriteLine("_GetModels: Task Canceled");
 			}
+			IsLoading = false;
 			_Log.WriteLine("_GetModels: finished");
 		}
 	}

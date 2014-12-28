@@ -83,6 +83,8 @@
     <Compile Include="Interfaces\Log_Android.cs" />
     <Compile Include="Interfaces\Setting_Android.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Renderers\LoadingContentPageRenderer_Android.cs" />
+    <Compile Include="Renderers\LoadingListViewRenderer_Android.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

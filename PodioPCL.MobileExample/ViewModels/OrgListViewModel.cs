@@ -14,6 +14,10 @@ namespace PodioPCL.MobileExample.ViewModels
 	/// </summary>
 	public class OrgListViewModel : ListViewModelBase<Models.Organization>
 	{
+		public OrgListViewModel()
+		{
+			LoadingMessage = "Downloading Organizations from the Podio API.";
+		}
 		/// <summary>
 		/// When implemented, this method gets a <see cref="List{T}" /> of the <see cref="PodioPCL.Models.Organization"/> model.
 		/// </summary>
