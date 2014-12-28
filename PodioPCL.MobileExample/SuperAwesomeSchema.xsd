@@ -498,6 +498,100 @@
     <xs:attribute name="BindingContext" type="xs:string"></xs:attribute>
     <xs:attribute name="GestureRecognizers" type="xs:string"></xs:attribute>
   </xs:complexType>
+  <xs:complexType name="LoadingContentPage">
+    <xs:sequence>
+      <xs:choice maxOccurs="unbounded" minOccurs="1">
+        <xs:element name="LoadingContentPage.GestureRecognizers" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.Content" type="View"></xs:element>
+        <xs:element name="LoadingContentPage.BackgroundImage" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.IsBusy" type="xs:boolean"></xs:element>
+        <xs:element name="LoadingContentPage.Padding" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.Title" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.Icon" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.InputTransparent" type="xs:boolean"></xs:element>
+        <xs:element name="LoadingContentPage.IsEnabled" type="xs:boolean"></xs:element>
+        <xs:element name="LoadingContentPage.AnchorX" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.AnchorY" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.TranslationX" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.TranslationY" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.Rotation" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.RotationX" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.RotationY" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.Scale" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.IsVisible" type="xs:boolean"></xs:element>
+        <xs:element name="LoadingContentPage.Opacity" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.BackgroundColor" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.WidthRequest" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.HeightRequest" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.MinimumWidthRequest" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.MinimumHeightRequest" type="xs:double"></xs:element>
+        <xs:element name="LoadingContentPage.Resources" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.Parent" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.ClassId" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.StyleId" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.BindingContext" type="xs:string"></xs:element>
+        <xs:element name="ListView" type="ListView"></xs:element>
+        <xs:element name="TableView" type="TableView"></xs:element>
+        <xs:element name="Layout" type="Layout"></xs:element>
+        <xs:element name="AbsoluteLayout" type="AbsoluteLayout"></xs:element>
+        <xs:element name="ActivityIndicator" type="ActivityIndicator"></xs:element>
+        <xs:element name="BoxView" type="BoxView"></xs:element>
+        <xs:element name="Button" type="Button"></xs:element>
+        <xs:element name="ContentView" type="ContentView"></xs:element>
+        <xs:element name="DatePicker" type="DatePicker"></xs:element>
+        <xs:element name="InputView" type="InputView"></xs:element>
+        <xs:element name="Editor" type="Editor"></xs:element>
+        <xs:element name="Entry" type="Entry"></xs:element>
+        <xs:element name="Frame" type="Frame"></xs:element>
+        <xs:element name="Image" type="Image"></xs:element>
+        <xs:element name="Label" type="Label"></xs:element>
+        <xs:element name="NavigationMenu" type="NavigationMenu"></xs:element>
+        <xs:element name="OpenGLView" type="OpenGLView"></xs:element>
+        <xs:element name="ProgressBar" type="ProgressBar"></xs:element>
+        <xs:element name="RelativeLayout" type="RelativeLayout"></xs:element>
+        <xs:element name="ScrollView" type="ScrollView"></xs:element>
+        <xs:element name="SearchBar" type="SearchBar"></xs:element>
+        <xs:element name="Slider" type="Slider"></xs:element>
+        <xs:element name="StackLayout" type="StackLayout"></xs:element>
+        <xs:element name="Stepper" type="Stepper"></xs:element>
+        <xs:element name="Switch" type="Switch"></xs:element>
+        <xs:element name="TimePicker" type="TimePicker"></xs:element>
+        <xs:element name="Toolbar" type="Toolbar"></xs:element>
+        <xs:element name="WebView" type="WebView"></xs:element>
+        <xs:element name="Grid" type="Grid"></xs:element>
+        <xs:element name="Picker" type="Picker"></xs:element>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="Content" type="xs:string"></xs:attribute>
+    <xs:attribute name="BackgroundImage" type="xs:string"></xs:attribute>
+    <xs:attribute name="IsBusy" type="xs:boolean"></xs:attribute>
+    <xs:attribute name="Padding" type="xs:string"></xs:attribute>
+    <xs:attribute name="Title" type="xs:string"></xs:attribute>
+    <xs:attribute name="Icon" type="xs:string"></xs:attribute>
+    <xs:attribute name="InputTransparent" type="xs:boolean"></xs:attribute>
+    <xs:attribute name="IsEnabled" type="xs:boolean"></xs:attribute>
+    <xs:attribute name="AnchorX" type="xs:double"></xs:attribute>
+    <xs:attribute name="AnchorY" type="xs:double"></xs:attribute>
+    <xs:attribute name="TranslationX" type="xs:double"></xs:attribute>
+    <xs:attribute name="TranslationY" type="xs:double"></xs:attribute>
+    <xs:attribute name="Rotation" type="xs:double"></xs:attribute>
+    <xs:attribute name="RotationX" type="xs:double"></xs:attribute>
+    <xs:attribute name="RotationY" type="xs:double"></xs:attribute>
+    <xs:attribute name="Scale" type="xs:double"></xs:attribute>
+    <xs:attribute name="IsVisible" type="xs:boolean"></xs:attribute>
+    <xs:attribute name="Opacity" type="xs:double"></xs:attribute>
+    <xs:attribute name="BackgroundColor" type="xs:string"></xs:attribute>
+    <xs:attribute name="WidthRequest" type="xs:double"></xs:attribute>
+    <xs:attribute name="HeightRequest" type="xs:double"></xs:attribute>
+    <xs:attribute name="MinimumWidthRequest" type="xs:double"></xs:attribute>
+    <xs:attribute name="MinimumHeightRequest" type="xs:double"></xs:attribute>
+    <xs:attribute name="Resources" type="xs:string"></xs:attribute>
+    <xs:attribute name="Parent" type="xs:string"></xs:attribute>
+    <xs:attribute name="ClassId" type="xs:string"></xs:attribute>
+    <xs:attribute name="StyleId" type="xs:string"></xs:attribute>
+    <xs:attribute name="BindingContext" type="xs:string"></xs:attribute>
+    <xs:attribute name="GestureRecognizers" type="xs:string"></xs:attribute>
+  </xs:complexType>
   <xs:complexType name="AbsoluteLayout">
     <xs:sequence>
       <xs:choice maxOccurs="unbounded" minOccurs="1">
