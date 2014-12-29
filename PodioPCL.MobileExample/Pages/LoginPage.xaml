@@ -8,10 +8,13 @@
                     x:Class="PodioPCL.MobileExample.Pages.LoginPage"
                     Title="Log into Podio">
   <StackLayout Padding="10" VerticalOptions="Center">
-    <Label Text="Username" />
-    <Entry Text="{Binding UserName, Mode=TwoWay}" />
+    <Label Text="Email" />
+    <Entry Text="{Binding UserName, Mode=TwoWay}"
+           Keyboard="Email" />
     <Label Text="Password" />
-    <Entry Text="{Binding Password, Mode=TwoWay}" />
+    <Entry Text="{Binding Password, Mode=TwoWay}"
+           Keyboard="Text"
+           IsPassword="true" />
     <Button Command="{Binding LoginCommand}" Text="Login"/>
   </StackLayout>
 </LoadingContentPage>
