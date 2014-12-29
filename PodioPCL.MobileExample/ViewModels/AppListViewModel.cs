@@ -62,7 +62,7 @@ namespace PodioPCL.MobileExample.ViewModels
 				if (SelectedItem != null)
 				{
 					_Log.WriteLine(SelectedItem.AppId.ToString());
-					await _Nav.PushViewModelAsnc(new AppDetailViewModel(SelectedItem));
+					await _Nav.PushViewModelAsync(new AppDetailViewModel(SelectedItem));
 				}
 				await Task.Delay(200);
 				SelectedItem = null;

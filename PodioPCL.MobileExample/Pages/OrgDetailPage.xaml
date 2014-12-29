@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<controls:LoadingContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<LoadingContentPage xmlns="http://xamarin.com/schemas/2014/forms"
                              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                              xmlns:controls="clr-namespace:PodioPCL.MobileExample.Controls;assembly=PodioPCL.MobileExample"
                              IsLoading="{Binding IsLoading}"
                              LoadingTitle="{Binding LoadingTitle}"
                              LoadingMessage="{Binding LoadingMessage}"
                              x:Class="PodioPCL.MobileExample.Pages.OrgDetailPage"
-                             Title="{Binding Model.Name}">
-  <StackLayout>
-    <Label Text="Organization ID:" Font="Large"/>
-    <Label Text="{Binding Model.OrgId}" Font="Medium"/>
-    <Button Text="View Workspaces" Command="{Binding ViewSpacesCommand}"/>
-  </StackLayout>
-</controls:LoadingContentPage>
+                             Title="{Binding Model.Name}"
+                             Icon="{Binding Model.Image.Link}">
+  <LoadingContentPage.ToolbarItems>
+    <ToolbarItem Name="Spaces" Command="{Binding ViewSpacesCommand}" />
+  </LoadingContentPage.ToolbarItems>
+  <ListView ItemsSource="{Binding Properties}" HasUnevenRows="true" SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <controls:NameValueCell Title="{Binding Key}" Description="{Binding Value}" />
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</LoadingContentPage>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<controls:LoadingContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<LoadingContentPage xmlns="http://xamarin.com/schemas/2014/forms"
                              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                              xmlns:controls="clr-namespace:PodioPCL.MobileExample.Controls;assembly=PodioPCL.MobileExample"
                              IsLoading="{Binding IsLoading}"
@@ -10,17 +10,8 @@
   <ListView ItemsSource="{Binding Models}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
     <ListView.ItemTemplate>
       <DataTemplate>
-        <ViewCell>
-          <ViewCell.View>
-            <StackLayout Orientation="Horizontal">
-              <StackLayout>
-                <Label Text="{Binding Name}" />
-                <Label Text="{Binding SpaceId}" />
-              </StackLayout>
-            </StackLayout>
-          </ViewCell.View>
-        </ViewCell>
+        <controls:NameValueCell Title="{Binding Name}" Description="{Binding SpaceId}" />
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>
-</controls:LoadingContentPage>
+</LoadingContentPage>

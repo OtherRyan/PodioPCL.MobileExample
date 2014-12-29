@@ -1,18 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Xamarin.Forms.Platform.Android;
-using Xamarin.Forms;
 using PodioPCL.MobileExample.Droid.Renderers;
-using PodioPCL.MobileExample.Controls;
+using System;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.Android;
 
 [assembly: ExportRenderer(typeof(LoadingContentPage), typeof(LoadingContentPageRenderer_Android))]
 namespace PodioPCL.MobileExample.Droid.Renderers

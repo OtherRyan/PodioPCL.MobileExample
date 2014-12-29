@@ -1,7 +1,10 @@
-﻿using PodioPCL.MobileExample.ViewModels;
+﻿using PodioPCL.MobileExample.Pages;
+using PodioPCL.MobileExample.Utility;
+using PodioPCL.MobileExample.ViewModels;
 using System;
 using Xamarin.Forms;
 
+[assembly: ViewModel(typeof(ItemListViewModel), typeof(ItemListPage))]
 namespace PodioPCL.MobileExample.Pages
 {
 	/// <summary>

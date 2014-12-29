@@ -60,6 +60,7 @@ namespace PodioPCL.MobileExample.ViewModels
 		public LoginViewModel()
 		{
 			_InitializeCommands();
+			UserName = _Settings.GetSetting(LoginViewModel.UserNameProperty.PropertyName, UserName);
 			LoadingTitle = "Logging In";
 			LoadingMessage = "Attempting to log into Podio.";
 		}
@@ -105,7 +106,8 @@ namespace PodioPCL.MobileExample.ViewModels
 					}
 					else
 					{
-						await _Nav.PushViewModelAsnc(new OrgListViewModel());
+						await _Nav.PushViewModelAsync(new OrgListViewModel());
+						_Settings.SetSetting(LoginViewModel.UserNameProperty.PropertyName, UserName);
 						_Nav.RemoveViewModel(this);
 					}
 				}

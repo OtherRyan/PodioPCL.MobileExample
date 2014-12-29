@@ -1,6 +1,9 @@
-﻿using PodioPCL.MobileExample.ViewModels;
+﻿using PodioPCL.MobileExample.Pages;
+using PodioPCL.MobileExample.Utility;
+using PodioPCL.MobileExample.ViewModels;
 using System;
 
+[assembly: ViewModel(typeof(AppDetailViewModel), typeof(AppDetailPage))]
 namespace PodioPCL.MobileExample.Pages
 {
 	/// <summary>

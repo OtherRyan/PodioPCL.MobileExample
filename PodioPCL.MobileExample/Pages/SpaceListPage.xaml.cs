@@ -1,10 +1,13 @@
-﻿using PodioPCL.MobileExample.ViewModels;
+﻿using PodioPCL.MobileExample.Pages;
+using PodioPCL.MobileExample.Utility;
+using PodioPCL.MobileExample.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+[assembly: ViewModel(typeof(SpaceListViewModel), typeof(SpaceListPage))]
 namespace PodioPCL.MobileExample.Pages
 {
 	/// <summary>

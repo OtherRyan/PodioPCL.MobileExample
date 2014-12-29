@@ -1,10 +1,9 @@
-﻿using PodioPCL.MobileExample.ViewModels;
+﻿using PodioPCL.MobileExample.Pages;
+using PodioPCL.MobileExample.Utility;
+using PodioPCL.MobileExample.ViewModels;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+[assembly: ViewModel(typeof(LoginViewModel), typeof(LoginPage))]
 namespace PodioPCL.MobileExample.Pages
 {
 	/// <summary>

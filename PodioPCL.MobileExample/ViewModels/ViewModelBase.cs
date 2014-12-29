@@ -25,16 +25,30 @@ namespace PodioPCL.MobileExample.ViewModels
 			set { SetValue(IsLoadingProperty, value); }
 		}
 
+		/// <summary>
+		/// The loading title BindableProperty
+		/// </summary>
 		public static readonly BindableProperty LoadingTitleProperty =
 			BindableProperty.Create("LoadingTitle", typeof(string), typeof(ViewModelBase), "Loading...");
+		/// <summary>
+		/// Gets or sets the loading title.
+		/// </summary>
+		/// <value>The loading title.</value>
 		public string LoadingTitle
 		{
 			get { return (string)GetValue(LoadingTitleProperty); }
 			set { SetValue(LoadingTitleProperty, value); }
 		}
 
+		/// <summary>
+		/// The loading message BindableProperty
+		/// </summary>
 		public static readonly BindableProperty LoadingMessageProperty =
 			BindableProperty.Create("LoadingMessage", typeof(string), typeof(ViewModelBase), "Downloading new data from the Podio API");
+		/// <summary>
+		/// Gets or sets the loading message.
+		/// </summary>
+		/// <value>The loading message.</value>
 		public string LoadingMessage
 		{
 			get { return (string)GetValue(LoadingMessageProperty); }
@@ -54,7 +68,12 @@ namespace PodioPCL.MobileExample.ViewModels
 		/// <summary>
 		/// The local implementation of the ViewModelNavigation class.
 		/// </summary>
-		protected ViewModelNavigation _Nav;
+		protected ViewModelNavigation<ViewModelBase> _Nav;
+
+		/// <summary>
+		/// The local implementation of the ISettings interface.
+		/// </summary>
+		protected ISettings _Settings;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ViewModelBase"/> class. A parameterless constructor is required for the <see cref="Xamarin.Forms.DependencyService"/>.
@@ -63,7 +82,8 @@ namespace PodioPCL.MobileExample.ViewModels
 		{
 			_Log = DependencyService.Get<ILog>(DependencyFetchTarget.GlobalInstance);
 			_Podio = DependencyService.Get<PodioExample>(DependencyFetchTarget.GlobalInstance).Podio;
-			_Nav = DependencyService.Get<ViewModelNavigation>(DependencyFetchTarget.GlobalInstance);
+			_Nav = DependencyService.Get<ViewModelNavigation<ViewModelBase>>(DependencyFetchTarget.GlobalInstance);
+			_Settings = DependencyService.Get<ISettings>(DependencyFetchTarget.GlobalInstance);
 		}
 
 		/// <summary>

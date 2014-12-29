@@ -58,7 +58,7 @@ namespace PodioPCL.MobileExample.ViewModels
 		{
 			ViewAppsCommand = new Command(async (obj) =>
 			{
-				await _Nav.PushViewModelAsnc(new AppListViewModel(Model.SpaceId));
+				await _Nav.PushViewModelAsync(new AppListViewModel(Model.SpaceId));
 			});
 		}
 	}

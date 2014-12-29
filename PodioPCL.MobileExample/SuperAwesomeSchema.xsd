@@ -501,7 +501,11 @@
   <xs:complexType name="LoadingContentPage">
     <xs:sequence>
       <xs:choice maxOccurs="unbounded" minOccurs="1">
-        <xs:element name="LoadingContentPage.GestureRecognizers" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.IsLoading" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.LoadingTitle" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.LoadingMessage" type="xs:string"></xs:element>
+        <xs:element name="LoadingContentPage.ToolbarItems"/>
+        <xs:element name="LoadingContentPage.GestureRecognizers"/>
         <xs:element name="LoadingContentPage.Content" type="View"></xs:element>
         <xs:element name="LoadingContentPage.BackgroundImage" type="xs:string"></xs:element>
         <xs:element name="LoadingContentPage.IsBusy" type="xs:boolean"></xs:element>
@@ -562,6 +566,9 @@
         <xs:element name="Picker" type="Picker"></xs:element>
       </xs:choice>
     </xs:sequence>
+    <xs:attribute name="IsLoading" type="xs:string"></xs:attribute>
+    <xs:attribute name="LoadingTitle" type="xs:string"></xs:attribute>
+    <xs:attribute name="LoadingMessage" type="xs:string"></xs:attribute>
     <xs:attribute name="Content" type="xs:string"></xs:attribute>
     <xs:attribute name="BackgroundImage" type="xs:string"></xs:attribute>
     <xs:attribute name="IsBusy" type="xs:boolean"></xs:attribute>
@@ -1428,10 +1435,22 @@
     <xs:attribute name="BindingContext" type="xs:string"></xs:attribute>
     <xs:attribute name="GestureRecognizers" type="xs:string"></xs:attribute>
   </xs:complexType>
+  <xs:complexType name="DataTemplate">
+    <xs:sequence>
+      <xs:any />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ItemTemplate">
+    <xs:sequence>
+      <xs:choice maxOccurs="unbounded" minOccurs="1">
+        <xs:element name="DataTemplate" type="DataTemplate"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="ListView">
     <xs:sequence>
       <xs:choice maxOccurs="unbounded" minOccurs="1">
-        <xs:element name="Layout.ItemTemplate" type="xs:string"></xs:element>
+        <xs:element name="ListView.ItemTemplate" type="ItemTemplate" />
       </xs:choice>
     </xs:sequence>
     <xs:attribute name="SelectedItem" type="xs:string"></xs:attribute>
@@ -2125,6 +2144,7 @@
   <xs:element name="MasterDetailPage" type="MasterDetailPage"/>
   <xs:element name="TabbedPage" type="TabbedPage"/>
   <xs:element name="ContentPage" type="ContentPage"/>
+  <xs:element name="LoadingContentPage" type="LoadingContentPage"/>
   <xs:element name="ListView" type="ListView"/>
   <xs:element name="TableView" type="TableView"/>
   <xs:element name="Layout" type="Layout"/>

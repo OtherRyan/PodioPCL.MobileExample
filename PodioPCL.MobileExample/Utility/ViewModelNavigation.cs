@@ -3,17 +3,47 @@ using PodioPCL.MobileExample.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(ViewModelNavigation))]
 namespace PodioPCL.MobileExample.Utility
 {
 	/// <summary>
-	/// The <see cref="ViewModelNavigation"/> class is used to navigate between ViewModels instead of Pages, in MVVM style.
+	/// the ViewModelAttribute is used to pair a ViewModel with a Page
 	/// </summary>
-	public class ViewModelNavigation
+	[AttributeUsage(AttributeTargets.Assembly, AllowMultiple = true)]
+	public class ViewModelAttribute : Attribute
+	{
+		/// <summary>
+		/// Gets the type of the view model.
+		/// </summary>
+		/// <value>The type of the view model.</value>
+		public Type ViewModelType { get; private set; }
+		/// <summary>
+		/// Gets the type of the page.
+		/// </summary>
+		/// <value>The type of the page.</value>
+		public Type PageType { get; private set; }
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ViewModelAttribute"/> class.
+		/// </summary>
+		/// <param name="viewModelType">Type of the view model.</param>
+		/// <param name="pageType">Type of the page.</param>
+		public ViewModelAttribute(Type viewModelType, Type pageType)
+		{
+			ViewModelType = viewModelType;
+			PageType = pageType;
+		}
+	}
+
+	/// <summary>
+	/// The <see cref="ViewModelNavigation{TViewBase}"/> class is used to navigate between ViewModels instead of Pages, in MVVM style.
+	/// </summary>
+	/// <typeparam name="TViewBase">The type of the t view base.</typeparam>
+	public class ViewModelNavigation<TViewBase> where TViewBase : class
 	{
 		/// <summary>
 		/// Gets or sets the base page.
@@ -21,45 +51,55 @@ namespace PodioPCL.MobileExample.Utility
 		/// <value>The base page.</value>
 		public Page BasePage { get; set; }
 
-		private Dictionary<Type, Type> _RegisteredPages;
-		private Dictionary<ViewModelBase, Page> _Pages;
+		/// <summary>
+		/// Gets or sets the INavigation.
+		/// </summary>
+		/// <value>The INavigation.</value>
+		public INavigation Navigation
+		{
+			get
+			{
+				return BasePage.Navigation;
+			}
+		}
 
 		/// <summary>
-		/// Initializes a new instance of the <see cref="ViewModelNavigation"/> class.
+		/// Gets the navigation stack.
+		/// </summary>
+		/// <value>The navigation stack.</value>
+		public IReadOnlyList<TViewBase> NavigationStack
+		{
+			get
+			{
+				return Navigation.NavigationStack.Select(p => p.BindingContext as TViewBase).Where(v => v != null).ToList();
+			}
+		}
+
+		private Dictionary<Type, Type> _RegisteredPages;
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ViewModelNavigation{TViewBase}"/> class.
 		/// </summary>
 		public ViewModelNavigation()
 		{
 			_RegisteredPages = new Dictionary<Type, Type>();
-			_Pages = new Dictionary<ViewModelBase, Page>();
-		}
 
-		/// <summary>
-		/// Registers a <see cref="T:Xamarin.Forms.Page"/> for use with a <see cref="ViewModelBase">ViewModel</see>
-		/// </summary>
-		/// <typeparam name="TView">The type of the <see cref="ViewModelBase">ViewModel</see>.</typeparam>
-		/// <typeparam name="TPage">The type of the <see cref="T:Xamarin.Forms.Page">Page</see>.</typeparam>
-		public void RegisterPage<TView, TPage>()
-			where TView : ViewModelBase
-			where TPage : Page
-		{
-			var viewType = typeof(TView);
-			var pageType = typeof(TPage);
-			if (_RegisteredPages.ContainsKey(viewType))
+			Assembly assembly = this.GetType().GetTypeInfo().Assembly;
+			foreach (var attribute in assembly.GetCustomAttributes<ViewModelAttribute>())
 			{
-				_RegisteredPages.Remove(viewType);
+				_RegisteredPages.Add(attribute.ViewModelType, attribute.PageType);
 			}
-			_RegisteredPages.Add(viewType, pageType);
 		}
 
 		/// <summary>
 		/// Pushes the view model asnc.
 		/// </summary>
-		/// <typeparam name="TView">The <see cref="ViewModelBase">ViewModel</see>.</typeparam>
+		/// <typeparam name="TView">The ViewModel.</typeparam>
 		/// <param name="viewModel">The ViewModel.</param>
 		/// <returns>Task.</returns>
 		/// <exception cref="System.ArgumentOutOfRangeException">The dictionary doesn't contain the <see cref="T:Xamarin.Forms.Page">Page</see></exception>
-		public async Task PushViewModelAsnc<TView>(TView viewModel)
-			where TView : ViewModelBase
+		public async Task PushViewModelAsync<TView>(TView viewModel)
+			where TView : TViewBase
 		{
 			var viewType = typeof(TView);
 			if (!_RegisteredPages.ContainsKey(viewType))
@@ -69,32 +109,68 @@ namespace PodioPCL.MobileExample.Utility
 			else
 			{
 				var newPage = (Page)Activator.CreateInstance(_RegisteredPages[viewType], viewModel);
-				await BasePage.Navigation.PushAsync(newPage);
-				_Pages.Add(viewModel, newPage);
+				await Navigation.PushAsync(newPage);
 			}
 		}
 
 		/// <summary>
-		/// Pop the top <see cref="ViewModelBase">ViewModel</see> (and <see cref="T:Xamarin.Forms.Page">Page</see>) off the stack.
+		/// Pop the top <typeparamref name="TViewBase">ViewModel</typeparamref> (and <see cref="T:Xamarin.Forms.Page">Page</see>) off the stack.
 		/// </summary>
 		/// <returns>Task.</returns>
-		public async Task PopViewModelAsync()
+		public async Task<TViewBase> PopViewModelAsync()
 		{
-			var oldPage = await BasePage.Navigation.PopAsync();
-			foreach (var page in _Pages.Where(pv => pv.Value == oldPage).ToList())
+			var oldPage = await Navigation.PopAsync();
+			return oldPage.BindingContext as TViewBase;
+		}
+
+		/// <summary>
+		/// Pops to root asynchronous.
+		/// </summary>
+		/// <param name="animated">The animated.</param>
+		/// <returns>System.Threading.Tasks.Task.</returns>
+		public Task PopToRootAsync(bool animated = true)
+		{
+			return Navigation.PopToRootAsync();
+		}
+
+		/// <summary>
+		/// Inserts the before the second ViewModel
+		/// </summary>
+		/// <typeparam name="TView">The type of the <typeparamref name="TViewBase">ViewModel</typeparamref>.</typeparam>
+		/// <param name="viewModel">The view model.</param>
+		/// <param name="existingViewModel">The existing view model.</param>
+		public void InsertBeforeViewModel<TView>(TView viewModel, TViewBase existingViewModel)
+			where TView : TViewBase
+		{
+			var viewType = typeof(TView);
+			if (!_RegisteredPages.ContainsKey(viewType))
 			{
-				_Pages.Remove(page.Key);
+				throw new ArgumentOutOfRangeException(string.Format("Dictionary does not contain a page for {0}", viewType.Name));
+			}
+			else
+			{
+				var newPage = (Page)Activator.CreateInstance(_RegisteredPages[viewType], viewModel);
+				var existingPage = Navigation.NavigationStack.Where(p => p.BindingContext == existingViewModel).FirstOrDefault();
+				Navigation.InsertPageBefore(newPage, existingPage);
 			}
 		}
 
 		/// <summary>
 		/// Removes the view model (and <see cref="T:Xamarin.Forms.Page">Page</see>) from the stack.
 		/// </summary>
+		/// <typeparam name="TView">The type of <typeparamref name="TViewBase">ViewModel</typeparamref>.</typeparam>
 		/// <param name="viewModel">The ViewModel</param>
-		public void RemoveViewModel(ViewModelBase viewModel)
+		/// <returns>Removal Success</returns>
+		public bool RemoveViewModel<TView>(TView viewModel)
+			where TView : class, TViewBase
 		{
-			BasePage.Navigation.RemovePage(_Pages[viewModel]);
-			_Pages.Remove(viewModel);
+			var page = Navigation.NavigationStack.Where(p => p.BindingContext == viewModel).FirstOrDefault();
+			if (page != null)
+			{
+				Navigation.RemovePage(page);
+				return true;
+			}
+			return false;
 		}
 
 		/// <summary>

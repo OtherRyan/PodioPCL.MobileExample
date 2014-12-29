@@ -1,4 +1,5 @@
 ﻿using PodioPCL.Exceptions;
+using PodioPCL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,20 +14,16 @@ namespace PodioPCL.MobileExample.ViewModels
 	/// </summary>
 	public class SpaceListViewModel : ListViewModelBase<Models.Space>
 	{
-		/// <summary>
-		/// Gets or sets the Organization ID this <see cref="SpaceListViewModel"/> represents.
-		/// </summary>
-		/// <value>The Organization ID.</value>
-		public int OrgId { get; set; }
+		public Organization Organization { get; set; }
 
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SpaceListViewModel"/> class.
 		/// </summary>
 		/// <param name="orgId">The Organization ID.</param>
-		public SpaceListViewModel(int orgId)
+		public SpaceListViewModel(Organization organization)
 		{
-			OrgId = orgId;
+			Organization = organization;
 			LoadingMessage = "Downloading workspaces for the organization.";
 		}
 
@@ -43,7 +40,7 @@ namespace PodioPCL.MobileExample.ViewModels
 			{
 				try
 				{
-					return await _Podio.OrganizationService.GetSpacesOnOrganization(OrgId);
+					return await _Podio.OrganizationService.GetSpacesOnOrganization(Organization.OrgId);
 				}
 				catch (PodioException ex)
 				{
@@ -66,7 +63,7 @@ namespace PodioPCL.MobileExample.ViewModels
 				if (SelectedItem != null)
 				{
 					_Log.WriteLine("Organization Selected: {0}", SelectedItem.OrgId.ToString());
-					await _Nav.PushViewModelAsnc(new SpaceDetailViewModel(SelectedItem));
+					await _Nav.PushViewModelAsync(new SpaceDetailViewModel(SelectedItem));
 				}
 				await Task.Delay(200);
 				SelectedItem = null;

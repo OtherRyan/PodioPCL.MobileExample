@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 
+[assembly: Dependency(typeof(ViewModelNavigation<ViewModelBase>))]
 namespace PodioPCL.MobileExample
 {
 	/// <summary>
@@ -14,7 +15,7 @@ namespace PodioPCL.MobileExample
 	/// </summary>
 	public class App : Application
 	{
-		private ViewModelNavigation _Nav;
+		private ViewModelNavigation<ViewModelBase> _Nav;
 		private Podio _Podio;
 		private LoginViewModel _LoginViewModel;
 		private OrgListViewModel _OrgListViewModel;
@@ -26,18 +27,9 @@ namespace PodioPCL.MobileExample
 		{
 			//Setup navigation
 			MainPage = new NavigationPage();
-			_Nav = DependencyService.Get<ViewModelNavigation>(DependencyFetchTarget.GlobalInstance);
+			MainPage.PropertyChanged += MainPage_PropertyChanged;
+			_Nav = DependencyService.Get<ViewModelNavigation<ViewModelBase>>(DependencyFetchTarget.GlobalInstance);
 			_Nav.BasePage = MainPage;
-
-			//Register page types
-			_Nav.RegisterPage<LoginViewModel, LoginPage>();
-			_Nav.RegisterPage<OrgListViewModel, OrgListPage>();
-			_Nav.RegisterPage<OrgDetailViewModel, OrgDetailPage>();
-			_Nav.RegisterPage<SpaceListViewModel, SpaceListPage>();
-			_Nav.RegisterPage<SpaceDetailViewModel, SpaceDetailPage>();
-			_Nav.RegisterPage<AppListViewModel, AppListPage>();
-			_Nav.RegisterPage<AppDetailViewModel, AppDetailPage>();
-			_Nav.RegisterPage<ItemListViewModel, ItemListPage>();
 
 			//create the first Podio instance.
 			_Podio = DependencyService.Get<PodioExample>(DependencyFetchTarget.GlobalInstance).Podio;
@@ -46,16 +38,28 @@ namespace PodioPCL.MobileExample
 			if (!_Podio.IsAuthenticated())
 			{
 				_LoginViewModel = new LoginViewModel();
-				var pushTask = _Nav.PushViewModelAsnc(_LoginViewModel);
+				var pushTask = _Nav.PushViewModelAsync(_LoginViewModel);
 				pushTask.Wait();
 			}
 			else
 			{
 				_OrgListViewModel = new OrgListViewModel();
-				var pushTask = _Nav.PushViewModelAsnc(_OrgListViewModel);
+				var pushTask = _Nav.PushViewModelAsync(_OrgListViewModel);
 				pushTask.Wait();
 			}
 
+		}
+
+		void MainPage_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+		{
+			if (e.PropertyName == NavigationPage.CurrentPageProperty.PropertyName && sender != null && sender.GetType() == typeof(NavigationPage))
+			{
+				var navPage = ((NavigationPage)sender);
+				if (navPage.CurrentPage != null && !string.IsNullOrEmpty(navPage.CurrentPage.Icon))
+				{
+					NavigationPage.SetTitleIcon(navPage, navPage.CurrentPage.Icon);
+				}
+			}
 		}
 	}
 }
