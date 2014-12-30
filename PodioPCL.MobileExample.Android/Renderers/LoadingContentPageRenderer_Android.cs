@@ -43,7 +43,7 @@ namespace PodioPCL.MobileExample.Droid.Renderers
 		{
 			if (e.PropertyName == LoadingContentPage.IsLoadingProperty.PropertyName && Element != null && Element.IsLoading)
 			{
-				_ProgressDialog = ProgressDialog.Show(Context, Element.Title, Element.LoadingMessage);
+				_ProgressDialog = ProgressDialog.Show(Context, Element.LoadingTitle, Element.LoadingMessage);
 			}
 			else if (e.PropertyName == LoadingContentPage.IsLoadingProperty.PropertyName && Element != null && _ProgressDialog != null)
 			{
